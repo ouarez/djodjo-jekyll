@@ -1,0 +1,75 @@
+backend:
+
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: "img"
+
+collections:
+
+  - name: "special-pages"
+    label: "Pages uniques"
+    delete: false # Prevent users from deleting documents in this collection
+    files:
+      - name: "home"
+        file: "index.md"
+        label: "Éditer la page d'accueil"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/" }
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Paragraphe d'introduction", name: "home_intro", widget: "markdown"}
+          - {label: "Paragraphe pour matériel premier soins", name: "home_materiel", widget: "markdown"}
+          - {label: "Lien vers matériel premier soins", name: "link_materiel", widget: "string"}
+          - {label: "Paragraphe pour formations", name: "home_formations", widget: "markdown"}
+          - {label: "Lien vers formations", name: "link_formations", widget: "string"}
+
+  - name: "settings"
+    label: "Paramètres du site"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+     preview: false
+    files:
+       - name: "general"
+         label: "Général"
+         file: "_data/settings.yml"
+         description: "Paramètres Généraux"
+         fields:
+           - {label: "Titre du site", name: "site_title", widget: "string"}
+           - {label: "Header tags", name: "site_head", widget: "text", required: false}
+           - {label: "Courriel de contact", name: "site_email", widget: "string", required: false}
+           - {label: "Numéro de téléphone de contact", name: "site_tel", widget: "string", required: false}
+           - {label: "Lien vers page Facebook", name: "url_facebook", widget: "string", required: false}
+           - {label: "Lien vers page Instagram", name: "url_instagram", widget: "string", required: false}
+           - {label: "Lien vers page Twitter", name: "url_twitter", widget: "string", required: false}
+
+       - name: "navigation"
+         label: "Navigation"
+         file: "_data/navigation.yml"
+         description: "Navigation du site"
+         fields:
+          - label: "Navigation principale"
+            name: main_nav
+            widget: object
+            required: false
+            fields:
+              - label: Link
+                name: links
+                widget: list
+                required: false
+                fields:
+                  - {label: Titre, name: title, widget: string}
+                  - {label: URL, name: url, widget: string}
+          - label: "Navigation pied de page"
+            name: bottom_nav
+            widget: object
+            required: false
+            fields:
+              - label: Link
+                name: links
+                widget: list
+                required: false
+                fields:
+                  - {label: Titre, name: title, widget: string}
+                  - {label: URL, name: url, widget: string}

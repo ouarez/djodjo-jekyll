@@ -1,0 +1,263 @@
+---
+---
+
+// variables
+
+$primary-font: 'Montserrat', sans-serif;
+$serif: 'Amatic SC', cursive;
+$primary: #eee;
+$contrast:#333;
+$red:#752525;
+$font-weight:100;
+
+body {
+    font-family: $primary-font;
+    color: $contrast;
+    background-color:#fff;
+    font-weight:$font-weight;
+}
+
+.container {
+  max-width:1400px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.handwritten {
+  font-family:$serif;
+}
+
+// typography
+
+  p,li {
+    line-height:1.5;
+  }
+
+   h1,h2 {
+     margin:1em 0;
+     font-family:$primary-font;
+     font-weight:$font-weight;
+   }
+
+   h3,h4,h5,h6 {
+     margin:0.5em 0;
+     font-family:$primary-font;
+     font-weight:$font-weight;
+   }
+
+   h1 {
+     font-size:2.5rem;
+   }
+
+   h2 {
+     font-size:2.25rem;
+   }
+
+   h3 {
+     font-size:1.75rem;
+   }
+
+   h4 {
+     font-size:1.25rem;
+   }
+
+   h5 {
+     font-size:1rem;
+   }
+
+   h6 {
+     font-size:0.75rem;
+   }
+
+   p,li,label,input,select,span,button {
+     color:$contrast;
+     font-family: $primary-font;
+     font-weight:$font-weight;
+   }
+
+// header
+
+header {
+  height: 750px;
+  width:100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:right center;
+
+  nav {
+    a {
+      color:#333;
+      text-decoration:none;
+      font-family:$serif;
+      font-size:20px;
+      line-height:1.5;
+    }
+    a:hover {text-decoration:underline;}
+  }
+
+  .mobile-nav {
+    background-color:#333;
+    border-top:solid #666 1px;
+    border-bottom:solid #666 1px;
+  }
+
+  .header {
+    background-color:#fff;
+    opacity:0.9;
+
+    .nav-button {
+      cursor:pointer;
+      img {
+        width:32px;
+        height:32px;
+      }
+    }
+  }
+
+  .hero {
+    height:670px;
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.4)
+        ),
+        /* bottom, image */
+        url();
+    h2,h3 {
+      color:#fff;
+      text-shadow:1px 1px #000;
+    }
+
+    .icon {
+      position:relative;
+      img {
+        position:absolute;
+        top:3px;
+        width:28px;
+      }
+    }
+
+    .container { // applies to all pages except the home page
+      position:relative;
+      h2 {
+        font-size:3em;
+        position:absolute;
+        top:150px;
+      }
+    }
+  }
+
+
+} // end header
+
+// main body
+
+main {
+  font-size:18px;
+
+  .thumb {
+    max-height:200px;
+    overflow:hidden;
+    padding:6px 3px;
+    img {
+
+    }
+  }
+
+    .services {
+      background-color:$red;
+      div {
+        color:#eee;
+        text-shadow:2px 2px #111;
+        white-space:nowrap;
+        img {
+          width:128px;
+        }
+        a {
+          color:#eee;
+          text-decoration:none;
+          border:solid #fff 3px;
+          border-radius: 5px 5px;
+          text-shadow:1px 1px #000;
+          &:hover {text-decoration: underline;}
+          img {
+            position:relative;
+            top:2px;
+            left:5px;
+            width:16px;
+          }
+        }
+      }
+    } // end services
+
+      .submit {
+        background-color:$red;
+        color:#fff;
+        border:1px solid #ccc;
+      }
+
+
+
+    .job {
+      border-bottom:solid #ccc 1px;
+      &:first-child {border-top:solid #ccc 1px;}
+      .icon {
+        position:relative;
+        span {
+          margin-left:36px;
+          line-height:1.5;
+          display:block;
+        }
+        img {
+          position:absolute;
+          top:10px;
+          width:24px;
+        }
+      }
+    }
+
+
+} // end main
+
+footer {
+
+  background-color:#333;
+
+  .container {
+
+    h3 {color:#eee;}
+    p {
+      color:#eee;
+      font-size:20px;
+      line-height:1.5;
+    }
+    a {
+      color:#aaa;
+      font-size:20px;
+      line-height:1.5;
+    }
+    .icon {
+      position:relative;
+      span {
+        color:#eee;
+        font-size:18px;
+        margin-left:36px;
+        line-height:1.5;
+        display:block;
+      }
+      img {
+        position:absolute;
+        top:10px;
+        width:24px;
+      }
+    }
+    .social {
+      img {width:32px;}
+    }
+
+  }
+
+
+
+}
