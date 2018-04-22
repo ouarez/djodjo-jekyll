@@ -156,67 +156,11 @@ header {
 main {
   font-size:18px;
 
-  .thumb {
-    max-height:200px;
-    overflow:hidden;
-    padding:6px 3px;
+  .products-home {
     img {
-
+      height:500px;
     }
   }
-
-    .services {
-      background-color:$red;
-      div {
-        color:#eee;
-        text-shadow:2px 2px #111;
-        white-space:nowrap;
-        img {
-          width:128px;
-        }
-        a {
-          color:#eee;
-          text-decoration:none;
-          border:solid #fff 3px;
-          border-radius: 5px 5px;
-          text-shadow:1px 1px #000;
-          &:hover {text-decoration: underline;}
-          img {
-            position:relative;
-            top:2px;
-            left:5px;
-            width:16px;
-          }
-        }
-      }
-    } // end services
-
-      .submit {
-        background-color:$red;
-        color:#fff;
-        border:1px solid #ccc;
-      }
-
-
-
-    .job {
-      border-bottom:solid #ccc 1px;
-      &:first-child {border-top:solid #ccc 1px;}
-      .icon {
-        position:relative;
-        span {
-          margin-left:36px;
-          line-height:1.5;
-          display:block;
-        }
-        img {
-          position:absolute;
-          top:10px;
-          width:24px;
-        }
-      }
-    }
-
 
 } // end main
 
