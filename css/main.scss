@@ -170,8 +170,29 @@ main {
   font-size:18px;
 
   .products-home {
-    img {
-      height:400px;
+    height:500px;
+    div {
+      height:500px;
+      background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        );
+      &:hover {
+        background:
+          /* top, transparent black, faked with gradient */
+          linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+          );
+          h2,h3,p,span {display:block};
+      }
+      h2,h3,p,span {
+        color:#fff;
+        text-shadow:1px 1px #000;
+        display:none;
+      }
     }
   }
 
