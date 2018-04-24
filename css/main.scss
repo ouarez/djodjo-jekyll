@@ -7,7 +7,8 @@ $primary-font: 'Montserrat', sans-serif;
 $serif: 'Amatic SC', cursive;
 $primary: #eee;
 $contrast:#333;
-$red:#752525;
+$red: #CF4537;
+$blue: #5fa3b0;
 $font-weight:100;
 
 body {
@@ -15,6 +16,14 @@ body {
     color: $contrast;
     background-color:#fff;
     font-weight:$font-weight;
+}
+
+.red {
+  background-color: $red;
+}
+
+.blue {
+  background-color: $blue;
 }
 
 .container {
@@ -127,14 +136,18 @@ header {
     h2,h3 {
       color:#fff;
       text-shadow:1px 1px #000;
+      font-size:3.5em;
+      font-family: $serif;
     }
+
+    h3 {font-size:3em;}
 
     .icon {
       position:relative;
       img {
         position:absolute;
-        top:3px;
-        width:28px;
+        top:8px;
+        width:40px;
       }
     }
 
@@ -158,7 +171,44 @@ main {
 
   .products-home {
     img {
+      height:400px;
+    }
+  }
+
+  .square {
+    height:500px;
+    div {
       height:500px;
+      background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        );
+      &:hover {
+        background:
+          /* top, transparent black, faked with gradient */
+          linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+          );
+      }
+      h2,h3,p,span {
+        color:#fff;
+        text-shadow:1px 1px #000;
+      }
+      .icon {
+        height:auto;
+        background:none;
+        position:relative;
+        border:solid white 1px;
+        border-radius:6px 6px;
+        line-height:1.5;
+        img {
+          position:absolute;
+          width:24px;
+        }
+      }
     }
   }
 
@@ -166,19 +216,31 @@ main {
 
 footer {
 
-  background-color:#333;
-
   .container {
+    font-family:$serif;
 
-    h3 {color:#eee;}
+    .logo {
+      position:relative;
+      img {
+        width:120px;
+      }
+      h3 {
+        position:absolute;
+        font-family: $serif;
+        top:10px;
+      }
+    }
+
+    h3 {color:#fff}
+
     p {
-      color:#eee;
-      font-size:20px;
+      color:#fff;
+      font-size:16px;
       line-height:1.5;
     }
     a {
-      color:#aaa;
-      font-size:20px;
+      color:#fff;
+      font-size:24px;
       line-height:1.5;
     }
     .icon {
