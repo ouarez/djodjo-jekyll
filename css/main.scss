@@ -24,6 +24,7 @@ body {
 
 .blue {
   background-color: $blue;
+  color:#fff;
 }
 
 .container {
@@ -93,26 +94,33 @@ header {
   background-size: cover;
   background-position:right center;
 
+  img {
+    width:136px;
+  }
+
   nav {
     a {
       color:#333;
       text-decoration:none;
       font-family:$serif;
-      font-size:20px;
+      font-size:22px;
       line-height:1.5;
     }
     a:hover {text-decoration:underline;}
   }
 
   .mobile-nav {
-    background-color:#333;
+    background-color:$blue;
     border-top:solid #666 1px;
     border-bottom:solid #666 1px;
+    top:80px;
+    a {
+      color:#fff;
+    }
   }
 
   .header {
     background-color:#fff;
-    opacity:0.9;
 
     .nav-button {
       cursor:pointer;
@@ -170,15 +178,8 @@ main {
   font-size:18px;
 
   .products-home {
-    height:500px;
     div {
       height:500px;
-      background:
-        /* top, transparent black, faked with gradient */
-        linear-gradient(
-          rgba(0, 0, 0, 0.3),
-          rgba(0, 0, 0, 0.3)
-        );
       &:hover {
         background:
           /* top, transparent black, faked with gradient */
@@ -242,6 +243,7 @@ footer {
 
     .logo {
       position:relative;
+      width:300px;
       img {
         width:120px;
       }
@@ -285,6 +287,11 @@ footer {
 
   }
 
-
+  .footer-bar {
+    background-color:#222;
+    img {
+      width:72px;
+    }
+  }
 
 }
