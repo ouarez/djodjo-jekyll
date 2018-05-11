@@ -63,7 +63,7 @@ square:
       biologiques locaux.
     square_image: /img/kombucha.jpg
     square_link: /produits
-    square_link_desc: En savoir plus sur nous
+    square_link_desc: Voir nos produits
     square_name: Notre mission
   - square_desc: >-
       Nos produits sont présentement disponibles en vrac à 5 points de ventes
@@ -73,5 +73,14 @@ square:
     square_link: /points-de-vente
     square_link_desc: Voir nos points de vente
     square_name: Points de vente
+  - square_desc: >-
+      Nous offrons principalement des saveurs à base d'ingrédients biologiques
+      cultivés au Canada afin de favoriser les producteurs locaux, protéger
+      l'environnement et faire découvrir de nouveaux fruits et herbes
+      aromatiques nordiques aux consommateurs. 
+    square_image: /img/fournisseurs.jpg
+    square_link: /fournisseurs
+    square_link_desc: En savoir plus sur nos fournisseurs
+    square_name: Fournisseurs locaux
 ---
 
