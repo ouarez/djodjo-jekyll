@@ -73,5 +73,10 @@ square:
     square_link: /points-de-vente
     square_link_desc: Voir nos points de vente
     square_name: Points de vente
+  - square_desc: test
+    square_image: /img/djodjo-cover.jpg
+    square_link: test
+    square_link_desc: test
+    square_name: test
 ---
 
