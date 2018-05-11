@@ -28,41 +28,18 @@ layout: default
 
       <div class="w-100 products-home flex flex-wrap">
 
-        <div class="w-50 w-25-l dt vh-100 tc" style="background-image:url('img/hibiscus.jpg')">
-          <a href="#" class="link">
+        {% for item in page.products %}
+
+        <div class="w-50 w-25-l dt vh-100 tc" style="background-image:url('{{item.product_image}}')">
+          <a href="{{item.product_link}}" class="link">
             <div class="dtc v-top pa4 w-50 w-25-l">
-              <h2 class="handwritten mb4 f1 tc-l">Hibiscus et rose</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+              <h2 class="handwritten mb4 f1 tc-l">{{item.product_name}}</h2>
+              <p>{{item.product_desc}}</p>
             </div>
           </a>
         </div>
 
-        <div class="w-50 w-25-l dt vh-100 tc" style="background-image:url('img/houblons.jpg')">
-          <a href="#" class="link">
-            <div class="dtc v-top pa4 w-50 w-25-l">
-              <h2 class="handwritten mb4 f1 tc-l">Houblons et café</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-            </div>
-          </a>
-        </div>
-
-        <div class="w-50 w-25-l dt vh-100 tc" style="background-image:url('img/bleuets.jpg')">
-          <a href="#" class="link">
-            <div class="dtc v-top pa4 w-50 w-25-l">
-              <h2 class="handwritten mb4 f1 tc-l">Bleuets et schizendra</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-            </div>
-          </a>
-        </div>
-
-        <div class="w-50 w-25-l dt vh-100 tc" style="background-image:url('img/menthe.jpg')">
-          <a href="#" class="link">
-            <div class="dtc v-top pa4 w-50 w-25-l">
-              <h2 class="handwritten mb4 f1 tc-l">Menthe et thé vert</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-            </div>
-          </a>
-        </div>
+        {% endfor %}
 
       </div> <!-- end products -->
 
