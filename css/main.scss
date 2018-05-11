@@ -92,7 +92,7 @@ header {
   width:100%;
   background-repeat:no-repeat;
   background-size: cover;
-  background-position:right center;
+  background-position:center center;
 
   img {
     width:136px;
@@ -180,6 +180,9 @@ main {
   .products-home {
     div {
       height:500px;
+      background-repeat:no-repeat;
+      background-size: cover;
+      background-position:center center;
       &:hover {
         background:
           /* top, transparent black, faked with gradient */
@@ -199,6 +202,9 @@ main {
 
   .square {
     height:500px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center center;
     div {
       height:500px;
       background:
@@ -211,8 +217,8 @@ main {
         background:
           /* top, transparent black, faked with gradient */
           linear-gradient(
-            rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.4)
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
           );
       }
       h2,h3,p,span {

@@ -31,7 +31,15 @@ collections:
               - {label: Lien du produit, name: product_link, widget: string}
               - {label: Description du produit, name: product_desc, widget: string}
               - {label: Image du produit, name: product_image, widget: image}
-
+          - label: "Carrés"
+            name: "square"
+            widget: "list"
+            fields:
+              - {label: Titre du carré, name: square_name, widget: string}
+              - {label: Lien du carré, name: square_link, widget: string}
+              - {label: Description du carré, name: square_desc, widget: string}
+              - {label: Description du lien, name: square_link_desc, widget: string}
+              - {label: Image du carré, name: square_image, widget: image}
 
   - name: "settings"
     label: "Paramètres du site"

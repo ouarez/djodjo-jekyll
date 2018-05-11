@@ -45,13 +45,15 @@ layout: default
 
       <div class="w-100 flex flex-wrap">
 
-        <div class="grow square w-100 w-50-l dt vh-100 tc" style="background-image:url('img/kombucha.jpg')">
-          <a href="#" class="link">
+        {% for item in page.square %}
+
+        <div class="grow square w-100 w-50-l dt vh-100 tc" style="background-image:url('{{item.square_image}}')">
+          <a href="{{item.square_link}}" class="link">
             <div class="dtc v-top pv4 ph5">
-              <h2 class="handwritten mb4 f1 tc-l">Notre mission</h2>
-              <p>Rendre accessible à la population un produit écoresponsable et éthique en offrant une alternative santé tout aussi festive et savoureuse que les boissons gazeuses ou alcoolisés en plus d'encourager les agriculteurs biologiques locaux.</p>
+              <h2 class="handwritten mb4 f1 tc-l">{{item.square_name}}</h2>
+              <p>{{item.square_desc}}</p>
               <div class="icon ml-auto mr-auto w-90 w-60-l pa3">
-                <span class="mr2 b">En savoir plus sur nous</span>
+                <span class="mr2 b">{{item.square_link_desc}}</span>
                 <img src="img/icons/arrow-right.png"/>
               </div>
             </div>
