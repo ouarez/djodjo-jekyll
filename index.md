@@ -55,5 +55,23 @@ products:
     product_image: /img/fruits.jpg
     product_link: /produits/sur-demande
     product_name: Sur demande
+square:
+  - square_desc: >-
+      Rendre accessible à la population un produit écoresponsable et éthique en
+      offrant une alternative santé tout aussi festive et savoureuse que les
+      boissons gazeuses ou alcoolisés en plus d'encourager les agriculteurs
+      biologiques locaux.
+    square_image: /img/kombucha.jpg
+    square_link: /produits
+    square_link_desc: En savoir plus sur nous
+    square_name: Notre mission
+  - square_desc: >-
+      Nos produits sont présentement disponibles en vrac à 5 points de ventes
+      (Sherbrooke, Laval, Longueuil et Montréal). Notre kombucha est distributée
+      en fût afin de favoriser la réutilisation et d'offrir un prix compétitif.
+    square_image: /img/sherby.png
+    square_link: /points-de-vente
+    square_link_desc: Voir nos points de vente
+    square_name: Points de vente
 ---
 
