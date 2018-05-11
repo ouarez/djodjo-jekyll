@@ -55,6 +55,12 @@ products:
     product_image: /img/fruits.jpg
     product_link: /produits/sur-demande
     product_name: Sur demande
+title1: À PROPOS DE NOUS
+text1: >-
+  Nous offrons principalement des saveurs à base d'ingrédients biologiques
+  cultivés au Canada afin de favoriser les producteurs locaux, protéger
+  l'environnement et faire découvrir de nouveaux fruits et herbes aromatiques
+  nordiques aux consommateurs. 
 square:
   - square_desc: >-
       Rendre accessible à la population un produit écoresponsable et éthique en
