@@ -45,18 +45,17 @@ layout: default
 
       <div class="w-100 flex flex-wrap">
 
-        <div class="w-100 w-50-l tc blue pv3 ph5">
-              <h2 class="handwritten mb4 f1 b">À PROPOS DE NOUS</h2>
-              <p class="white f4 b">Djodjo Kombucha, c’est une jeune entreprise innovante se voulant devenir un créateur de saveur tout en étant un acteur de changement avec des pratiques entrepreneuriales éthiques et écoresponsables. Elle a été fondée par Joël Gagnon, bachelier en ingénierie passionné par la fermentation et l'amélioration de notre qualité de vie sous toutes ses formes.
-</p>
+        <div class="w-100 w-50-l tc blue pv4 ph3 ph5-l">
+              <h2 class="handwritten mb4 f1 b">{{page.title1}}</h2>
+              <p class="white f4">{{page.text1}}</p>
         </div>
 
         {% for item in page.square %}
 
         <div class="square w-100 w-50-l dt vh-100 tc" style="background-image:url('{{item.square_image}}')">
           <a href="{{item.square_link}}" class="link">
-            <div class="dtc v-top pv4 ph5">
-              <h2 class="handwritten mb4 f1 tc-l">{{item.square_name}}</h2>
+            <div class="dtc v-top pv4 ph3 ph5-l">
+              <h2 class="handwritten mb4 f1 tc-l b">{{item.square_name}}</h2>
               <p>{{item.square_desc}}</p>
               <div class="icon ml-auto mr-auto w-90 w-60-l pa3">
                 <span class="mr2 b">{{item.square_link_desc}}</span>

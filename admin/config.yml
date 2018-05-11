@@ -31,6 +31,8 @@ collections:
               - {label: Lien du produit, name: product_link, widget: string}
               - {label: Description du produit, name: product_desc, widget: string}
               - {label: Image du produit, name: product_image, widget: image}
+          - {label: "Titre 1", name: "title1", widget: "string"}
+          - {label: "Texte 1", name: "text1", widget: "string"}
           - label: "Carrés"
             name: "square"
             widget: "list"
