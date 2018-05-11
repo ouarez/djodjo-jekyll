@@ -22,7 +22,7 @@ layout: default
 
     <main class="w-100">
 
-      <div class="w-100 pv4 blue">
+      <div class="w-100 pv4">
         <h2 class="handwritten tc f1 mv0">Nos produits</h2>
       </div>
 
@@ -47,7 +47,7 @@ layout: default
 
         {% for item in page.square %}
 
-        <div class="grow square w-100 w-50-l dt vh-100 tc" style="background-image:url('{{item.square_image}}')">
+        <div class="square w-100 w-50-l dt vh-100 tc" style="background-image:url('{{item.square_image}}')">
           <a href="{{item.square_link}}" class="link">
             <div class="dtc v-top pv4 ph5">
               <h2 class="handwritten mb4 f1 tc-l">{{item.square_name}}</h2>
