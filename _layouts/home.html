@@ -22,15 +22,15 @@ layout: default
 
     <main class="w-100">
 
-      <div class="w-100 pv4">
-        <h2 class="handwritten tc f1 mv0">Nos produits</h2>
+      <div class="w-100 pv5 blue">
+        <h2 class="handwritten tc f1 mv0 b">Nos produits</h2>
       </div>
 
       <div class="w-100 products-home flex flex-wrap">
 
         {% for item in page.products %}
 
-        <div class="w-50 w-25-l dt vh-100 tc" style="background-image:url('{{item.product_image}}')">
+        <div class="w-100 w-50-ns w-25-l dt vh-100 tc" style="background-image:url('{{item.product_image}}')">
           <a href="{{item.product_link}}" class="link">
             <div class="dtc v-top pa4 w-50 w-25-l">
               <h2 class="handwritten mb4 f1 tc-l">{{item.product_name}}</h2>
@@ -44,6 +44,12 @@ layout: default
       </div> <!-- end products -->
 
       <div class="w-100 flex flex-wrap">
+
+        <div class="w-100 w-50-l tc blue pv3 ph5">
+              <h2 class="handwritten mb4 f1 b">À PROPOS DE NOUS</h2>
+              <p class="white f4 b">Djodjo Kombucha, c’est une jeune entreprise innovante se voulant devenir un créateur de saveur tout en étant un acteur de changement avec des pratiques entrepreneuriales éthiques et écoresponsables. Elle a été fondée par Joël Gagnon, bachelier en ingénierie passionné par la fermentation et l'amélioration de notre qualité de vie sous toutes ses formes.
+</p>
+        </div>
 
         {% for item in page.square %}
 
