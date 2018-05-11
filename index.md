@@ -49,5 +49,11 @@ products:
     product_image: /img/cafe-malte-sirop-erable.jpg
     product_link: /produits/cafe-malte-au-sirop-derable
     product_name: Café malté au sirop d'érable
+  - product_desc: >-
+      Nous pouvons produire des kombucha sur demande, moyennant un délai de 6
+      semaines.
+    product_image: /img/fruits.jpg
+    product_link: /produits/sur-demande
+    product_name: Sur demande
 ---
 
