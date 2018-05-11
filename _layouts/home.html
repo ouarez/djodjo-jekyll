@@ -2,16 +2,16 @@
 layout: default
 ---
 
-<header style="background-image:url('img/drink1.jpg');">
+<header style="background-image:url('{{page.cover_image}}');">
 
 {% include nav.html %}
 
       <div class="hero w-100 dt vh-100 tc tl-l pb5">
-        <div class="dtc v-mid">
-          <a href="#" class="link">
-            <h2 class="ttu tracked b ml5-l">L'effervescence de la vie</h2>
+        <div class="dtc v-top">
+          <a href="{{page.cover_link}}" class="link">
+            <h2 class="ttu tracked b ml5-l">{{page.slogan1}}</h2>
             <div class="icon">
-              <h3 class="mv0 ml2 ml5-l mr3 dib">7 saveurs originales</h2>
+              <h3 class="mv0 ml2 ml5-l mr3 dib">{{page.slogan2}}</h2>
               <img src="img/icons/arrow-right.png"/>
             </div>
           </a>

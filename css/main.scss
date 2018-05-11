@@ -144,7 +144,7 @@ header {
     h2,h3 {
       color:#fff;
       text-shadow:1px 1px #000;
-      font-size:3.5em;
+      font-size:4em;
       font-family: $serif;
     }
 
@@ -265,6 +265,9 @@ footer {
       color:#fff;
       font-size:24px;
       line-height:1.5;
+      &:hover {
+        text-decoration: underline;
+      }
     }
     .icon {
       position:relative;
