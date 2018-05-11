@@ -23,6 +23,15 @@ collections:
           - {label: "Slogan 2", name: "slogan2", widget: "string"}
           - {label: "Lien couverture", name: "cover_link", widget: "string"}
           - {label: "Image de couverture", name: "cover_image", widget: "image"}
+         - label: "Produits"
+            name: "products"
+            widget: "list"
+            fields:
+              - {label: Nom du produit, name: product_name, widget: string}
+              - {label: Lien du produit, name: product_link, widget: string}
+              - {label: Description du produit, name: product_desc, widget: string}
+              - {label: Image du produit, name: product_image, widget: image}
+
 
   - name: "settings"
     label: "Paramètres du site"
