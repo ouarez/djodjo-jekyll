@@ -73,7 +73,10 @@ square:
     square_link: /points-de-vente
     square_link_desc: Voir nos points de vente
     square_name: Points de vente
-  - square_desc: Ceci est un test. La longueur compte.
+  - square_desc: >-
+      Ceci est un test. La longueur compte.Ceci est un test. La longueur
+      compte.Ceci est un test. La longueur compte.Ceci est un test. La longueur
+      compte.Ceci est un test. La longueur compte.
     square_image: /img/djodjo-cover.jpg
     square_link: /test
     square_link_desc: This is a test
