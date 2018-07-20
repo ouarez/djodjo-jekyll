@@ -76,7 +76,7 @@ square:
       Nos produits sont présentement disponibles en vrac à 5 points de ventes
       (Sherbrooke, Laval, Longueuil et Montréal). Notre kombucha est distributée
       en fût afin de favoriser la réutilisation et d'offrir un prix compétitif.
-    square_image: /img/sherby.png
+    square_image: /img/points-de-vente.jpg
     square_link: /points-de-vente
     square_link_desc: Voir nos points de vente
     square_name: Points de vente
@@ -84,10 +84,15 @@ square:
       Nous offrons principalement des saveurs à base d'ingrédients biologiques
       cultivés au Canada afin de favoriser les producteurs locaux, protéger
       l'environnement et faire découvrir de nouveaux fruits et herbes
-      aromatiques nordiques aux consommateurs. 
+      aromatiques nordiques aux consommateurs.
     square_image: /img/fournisseurs.jpg
     square_link: /fournisseurs
     square_link_desc: En savoir plus sur nos fournisseurs
     square_name: Fournisseurs locaux
+  - square_desc: >-
+      Nous publions régulièrement des articles et des recettes qui expliquent nos méthodes et notre savoir-faire. Partager nos connaissances permettra d'inspirer celui ou celle qui voudra créer sa propre Kombucha.
+    square_image: /img/recettes-articles.jpg
+    square_link: /articles-et-recettes
+    square_link_desc: En savoir plus sur nos fournisseurs
+    square_name: Recettes et articles
 ---
-

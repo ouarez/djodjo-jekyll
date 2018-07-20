@@ -1,0 +1,11 @@
+main_nav:
+  - title: Produits
+    url: /produits
+  - title: Points de vente
+    url: /points-de-vente
+  - title: Fournisseurs
+    url: /fournisseurs
+  - title: Articles
+    url: /articles
+  - title: Contact
+    url: /contact

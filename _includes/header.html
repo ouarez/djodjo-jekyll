@@ -1,0 +1,33 @@
+<header class="w-100 bb-l bw1-l b--light-gray">
+
+    <div class="container flex flex-wrap pt3 pv3-l">
+
+      <a href="/" alt="Djodjo Kombucha" class="ml-auto mr-auto ml0-l mr0-l ">
+        <img id="logo" class="pr5-l pl3-l mb3 mb0-l" src="/img/djodjo-kombucha.png" alt="Djodjo Kombucha"/>
+      </a>
+
+      <nav class="main w-100 w-70-l dn db-l tl mt3 pt1">
+        {% for item in site.data.navigation.main_nav %}
+          <a class="pr4 mid-gray {% if item.url == page.url %}active{% endif %}" href="{{item.url}}">{{item.title}}</a>
+        {% endfor %}
+      </nav>
+
+      <nav class="mobile w-100 dn-l pv3 tc blue">
+        {% for item in site.data.navigation.main_nav %}
+          <a class="db pv3 {% if item.url == page.url %}active{% endif %}" href="{{item.url}}">{{item.title}}</a>
+        {% endfor %}
+      </nav>
+
+  </div>
+</header>
+
+<div class="w-100 cover" style="background-image:url('{{page.cover_image}}');">
+  <div class="shadow pv3">
+
+    <div class="container flex flex-wrap pv5 ph3 ph4-l tc">
+      <h1 class="w-100 white ttu serif">{{page.title}}</h1>
+      <h2 class="w-100 white ttu tracked f3">{{page.slogan}}</h2>
+    </div>
+
+  </div>
+</div>

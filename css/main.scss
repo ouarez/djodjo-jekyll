@@ -4,12 +4,26 @@
 // variables
 
 $primary-font: 'Montserrat', sans-serif;
-$serif: 'Amatic SC', cursive;
+$alternate-font: 'Karla', sans-serif;
+$handwritten: 'Caveat', sans-serif;
+$serif: 'Merriweather', serif;
 $primary: #eee;
 $contrast:#333;
 $red: #CF4537;
 $blue: #5fa3b0;
 $font-weight:100;
+
+.serif {
+  font-family:$serif;
+}
+
+.alt-font {
+  font-family:$alternate-font;
+}
+
+.handwritten {
+  font-family:$handwritten;
+}
 
 body {
     font-family: $primary-font;
@@ -24,20 +38,19 @@ body {
 
 .blue {
   background-color: $blue;
-  color:#fff;
 }
 
 .container {
-  max-width:1400px;
+  max-width:1200px;
   margin-left:auto;
   margin-right:auto;
 }
 
-.handwritten {
-  font-family:$serif;
-}
-
 // typography
+
+ b,strong {
+   font-weight:900;
+ }
 
   p,li {
     line-height:1.5;
@@ -55,190 +68,97 @@ body {
      font-weight:$font-weight;
    }
 
-   h1 {
-     font-size:2.5rem;
-   }
-
-   h2 {
-     font-size:2.25rem;
-   }
-
-   h3 {
-     font-size:1.75rem;
-   }
-
-   h4 {
-     font-size:1.25rem;
-   }
-
-   h5 {
-     font-size:1rem;
-   }
-
-   h6 {
-     font-size:0.75rem;
-   }
+   h1 {font-size:2.5rem;}
+   h2 {font-size:2.25rem;}
+   h3 {font-size:1.75rem;}
+   h4 {font-size:1.25rem;}
+   h5 {font-size:1rem;}
+   h6 {font-size:0.75rem;}
 
    p,li,label,input,select,span,button {
-     color:$contrast;
      font-family: $primary-font;
      font-weight:$font-weight;
+   }
+
+   .shadow {
+     background:
+         linear-gradient(
+           rgba(0, 0, 0, 0.6),
+           rgba(0, 0, 0, 0.6)
+         );
+   }
+
+   .cover {
+     background-repeat:no-repeat;
+     background-size: cover;
+     background-position:center center;
    }
 
 // header
 
 header {
-  height: 750px;
-  width:100%;
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-position:center center;
+  background-color:#fff;
 
-  img {
-    width:136px;
-  }
+  img#logo {height:56px;}
 
-  nav {
+  nav.main {
     a {
-      color:#333;
-      text-decoration:none;
-      font-family:$serif;
-      font-size:22px;
-      line-height:1.5;
+      font-size:14px;
+      text-decoration: none;
+      font-family:$alternate-font;
+      text-transform: uppercase;
+      font-weight:bold;
+      &:hover {
+        text-decoration:underline;
+      }
     }
-    a:hover {text-decoration:underline;}
+    a.active {text-decoration:underline;color:#333;}
   }
 
-  .mobile-nav {
-    background-color:$blue;
-    border-top:solid #666 1px;
-    border-bottom:solid #666 1px;
-    top:78px;
-    z-index:1000;
+  nav.mobile {
     a {
-      color:#fff;
+      color:white;
+      font-size:18px;
+      text-decoration: none;
+      font-weight:bold;
+      font-family:$alternate-font;
+      text-transform: uppercase;
     }
+    a.active {text-decoration:underline;color:white;}
   }
-
-  .header {
-    background-color:#fff;
-
-    .nav-button {
-      cursor:pointer;
-      img {
-        width:32px;
-        height:32px;
-      }
-    }
-  }
-
-  .hero {
-    height:670px;
-    background:
-        /* top, transparent black, faked with gradient */
-        linear-gradient(
-          rgba(0, 0, 0, 0.4),
-          rgba(0, 0, 0, 0.4)
-        ),
-        /* bottom, image */
-        url();
-    h2,h3 {
-      color:#fff;
-      text-shadow:1px 1px #000;
-      font-size:4em;
-      font-family: $serif;
-    }
-
-    h3 {font-size:3em;}
-
-    .icon {
-      position:relative;
-      img {
-        position:absolute;
-        top:8px;
-        width:40px;
-      }
-    }
-
-    .container { // applies to all pages except the home page
-      position:relative;
-      h2 {
-        font-size:3em;
-        position:absolute;
-        top:150px;
-      }
-    }
-  }
-
 
 } // end header
+
+.hero {
+  h1 {font-size:4em;}
+  h2 {font-size:2.5em;}
+}
 
 // main body
 
 main {
-  font-size:18px;
-
-  .products-home {
-    div {
-      height:500px;
-      background-repeat:no-repeat;
-      background-size: cover;
-      background-position:center center;
-      &:hover {
-        background:
-          /* top, transparent black, faked with gradient */
-          linear-gradient(
-            rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.7)
-          );
-          h2,h3,p,span {display:block};
-      }
-      h2,h3,p,span {
-        color:#fff;
-        text-shadow:1px 1px #000;
-        display:none;
-      }
-    }
-  }
+  font-size:16px;
 
   .square {
-    height:500px;
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position:center center;
-    div {
-      height:500px;
-      background:
-        /* top, transparent black, faked with gradient */
-        linear-gradient(
-          rgba(0, 0, 0, 0.7),
-          rgba(0, 0, 0, 0.7)
-        );
-      &:hover {
-        background:
-          /* top, transparent black, faked with gradient */
-          linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-          );
-      }
-      h2,h3,p,span {
-        color:#fff;
-        text-shadow:1px 1px #000;
-      }
-      .icon {
-        height:auto;
-        background:none;
-        position:relative;
-        border:solid white 1px;
-        border-radius:6px 6px;
-        line-height:1.3;
-        img {
-          position:absolute;
-          width:24px;
-        }
-      }
+    height:460px;
+
+    .shadow {height:460px;}
+  } // end square
+
+  .product {
+    .dark-red {color:#790604 }
+    .title {min-height:70px;}
+    img {
+      height:220px;
+      width:220px;
     }
+    .description {
+      min-height:170px;
+    }
+    .ingredients {
+      min-height:180px;
+    }
+    .logo {height:50px;width:50px;}
   }
 
 } // end main
@@ -246,7 +166,7 @@ main {
 footer {
 
   .container {
-    font-family:$serif;
+    font-family:$alternate-font;
 
     .logo {
       position:relative;
@@ -256,7 +176,7 @@ footer {
       }
       h3 {
         position:absolute;
-        font-family: $serif;
+        font-family: $alternate-font;
         top:10px;
       }
     }

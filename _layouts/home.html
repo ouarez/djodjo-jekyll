@@ -2,73 +2,57 @@
 layout: default
 ---
 
-<header style="background-image:url('{{page.cover_image}}');">
+<header class="w-100 vh-100-l cover" style="background-image:url('/img/kombucha-cover.jpg');">
+  <div class="shadow vh-100-l">
 
-{% include nav.html %}
+    <div class="hero container flex flex-wrap pv3 ph3 ph4-l">
 
-      <div class="hero w-100 dt vh-100 tc tl-l pb5">
-        <div class="dtc v-top">
-          <a href="{{page.cover_link}}" class="link">
-            <h2 class="ttu tracked b ml5-l">{{page.slogan1}}</h2>
-            <div class="icon">
-              <h3 class="mv0 ml2 ml5-l mr3 dib">{{page.slogan2}}</h2>
-              <img src="img/icons/arrow-right.png"/>
-            </div>
-          </a>
-        </div>
+      <img id="logo" class="pr5-l ml-auto mr-auto ml0-l mr0-l" src="/img/djodjo-white.png" alt="Djodjo Kombucha"/>
+
+      <nav class="main w-100 w-70-l dn db-l tl mt3 pt1">
+        <a class="pr4 white" href="/produits">Produits</a>
+        <a class="pr4 white" href="/points-de-vente">Points de vente</a>
+        <a class="pr4 white" href="/fournisseurs">Fournisseurs</a>
+        <a class="pr4 white" href="/articles">Articles</a>
+        <a class="pr4 white" href="/contact">Contact</a>
+      </nav>
+
+      <nav class="mobile w-100 dn-l pv3 tc">
+        <a class="db pv3" href="/produits">Produits</a>
+        <a class="db pv3" href="/points-de-vente">Points de vente</a>
+        <a class="db pv3" href="/fournisseurs">Fournisseurs</a>
+        <a class="db pv3" href="/articles">Articles</a>
+        <a class="db pv3" href="/contact">Contact</a>
+      </nav>
+
+      <div class="w-100 w-60-l white pv3 pv5-l tc tl-l">
+        <h1 class="f1 alt-font ttu">L'effervescence de la vie</h1>
+        <h2 class="dib f2 alt-font ttu tracked"><i class="fas fa-chevron-circle-right mr3 pt2 dib f2"></i>7 saveurs disponibles</h2>
       </div>
 
+    </div>
+
+  </div>
 </header>
 
-    <main class="w-100">
+<main class="w-100 flex flex-wrap ph3 pt4">
 
-      <div class="w-100 pv5 blue">
-        <h2 class="handwritten tc f1 mv0 b">Nos produits</h2>
+  {% for item in page.square %}
+
+    <div class="w-100 w-50-l">
+      <div class="square cover mh3 mb4" style="background-image:url('{{item.square_image}}')">
+        <div class="w-100 shadow dt">
+          <div class="white tc dtc v-mid ph3 ph5-l">
+            <h3 class="ttu alt-font f2">{{item.square_name}}</h3>
+            <p>{{item.square_desc}}</p>
+          </div>
+        </div>
       </div>
 
-      <div class="w-100 products-home flex flex-wrap">
+    </div>
 
-        {% for item in page.products %}
+  {% endfor %}
 
-        <div class="w-100 w-50-ns w-25-l dt vh-100 tc" style="background-image:url('{{item.product_image}}')">
-          <a href="{{item.product_link}}" class="link">
-            <div class="dtc v-top pa4 w-50 w-25-l">
-              <h2 class="handwritten mb4 f1 tc-l">{{item.product_name}}</h2>
-              <p>{{item.product_desc}}</p>
-            </div>
-          </a>
-        </div>
-
-        {% endfor %}
-
-      </div> <!-- end products -->
-
-      <div class="w-100 flex flex-wrap">
-
-        <div class="w-100 w-50-l tc blue pv4 ph3 ph5-l">
-              <h2 class="handwritten mb4 f1 b">{{page.title1}}</h2>
-              <p class="white f4">{{page.text1}}</p>
-        </div>
-
-        {% for item in page.square %}
-
-        <div class="square w-100 w-50-l dt vh-100 tc" style="background-image:url('{{item.square_image}}')">
-          <a href="{{item.square_link}}" class="link">
-            <div class="dtc v-top pv4 ph3 ph5-l">
-              <h2 class="handwritten mb4 f1 tc-l b">{{item.square_name}}</h2>
-              <p>{{item.square_desc}}</p>
-              <div class="icon ml-auto mr-auto w-90 w-60-l pa3">
-                <span class="mr2 b">{{item.square_link_desc}}</span>
-                <img src="img/icons/arrow-right.png"/>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        {% endfor %}
-
-      </div> <!-- end square -->
-
-    </main> <!-- end main -->
+</main> <!-- end main -->
 
 {% include footer.html %}
