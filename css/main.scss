@@ -149,8 +149,8 @@ main {
     .dark-red {color:#790604 }
     .title {min-height:70px;}
     img {
-      height:220px;
-      width:220px;
+      height:300px;
+      width:300px;
     }
     .description {
       min-height:170px;
@@ -165,62 +165,10 @@ main {
 
 footer {
 
-  .container {
-    font-family:$alternate-font;
-
-    .logo {
-      position:relative;
-      width:300px;
-      img {
-        width:120px;
-      }
-      h3 {
-        position:absolute;
-        font-family: $alternate-font;
-        top:10px;
-      }
-    }
-
-    h3 {color:#fff}
-
-    p {
-      color:#fff;
-      font-size:16px;
-      line-height:1.5;
-    }
-    a {
-      color:#fff;
-      font-size:24px;
-      line-height:1.5;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-    .icon {
-      position:relative;
-      span {
-        color:#eee;
-        font-size:18px;
-        margin-left:36px;
-        line-height:1.5;
-        display:block;
-      }
-      img {
-        position:absolute;
-        top:10px;
-        width:24px;
-      }
-    }
-    .social {
-      img {width:32px;}
-    }
-
-  }
-
   .footer-bar {
     background-color:#222;
     img {
-      width:72px;
+      height:50px;
     }
   }
 

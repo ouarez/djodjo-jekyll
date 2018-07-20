@@ -1,7 +1,7 @@
 ---
 layout: fournisseurs
-title: Nos Fournissseurs
-permalink: /fournisseurs
+title: Partenaires locaux
+permalink: /partenaires-locaux
 description: Djodjo Kombucha veut participer au développement de l’économie locale et provinciale en faisant affaire avec des fournisseurs, agriculteurs et commerces québécois. Vivement l’économie circulaire!
 slogan: fournisseurs, agriculteurs et commerces québécois.
 cover_image: /img/fournisseurs.jpg
@@ -28,7 +28,7 @@ fournisseurs:
 
       Nous utilisons certains de leurs produits dans nos recettes et nous remercions Martin pour ses conseils nous ayant permis d’améliorer notre procédé d’infusion du houblon.
   - image: /img/caux-laflamme.jpg
-    title: Malterie Caux-Laflamme
+    title: Malterie Caux-Laflamme (Chaudière-Appalaches)
     desc: >-
       La Malterie Caux-Laflamme est une entreprise familiale spécialisée dans les malts pâles ayant à cœur de créer une chaîne de valeur dans le but de rapprocher les brasseurs des producteurs de grains.  De la production de la matière première jusqu’au traitement du malt, en passant par le trempage, la germination et le touraillage, le tout est fait au Québec pour offrir un produit constant de qualité supérieure.
 
@@ -80,6 +80,14 @@ fournisseurs:
 
 
       Nous utilisons leurs services commerciaux pour l’approvisionnement en certains ingrédients biologiques pour nos kombucha.
+
+  - image: /img/zerbes-folles.jpg
+    title: Les Zerbes Folles (Estrie)
+    desc: >-
+      Les Zerbes Folles sont un hybride entre plaisir gustatif et herboristerie traditionnelle. Une entreprise de distribution et de vente au détail de produits d'infusion. Offrant des thés, tisanes et chocolats chauds, l'équipe innove par la recherche de produits émergents et se distingue en concevant des recettes uniques et audacieuses. Visant à favoriser la santé et le respect de l'environnement, Les Zerbes Folles choisissent consciencieusement les produits utilisés en priorisant les options biologiques, locales, écologiques et équitables. Plusieurs plantes sont cueillies par l'équipe alors que d'autres sont cultivés par des fermes biologiques estriennes ou encore viennent de fournisseurs spécialisés à travers le monde.
+
+
+      Elles ont développé pour nous le mélange d’herbes forestières qui est utilisé dans le kombucha Fraîcheur Forestière en combinaison avec du houblon québécois.
 
   - image: /img/uni-d.jpg
     title: Uni-D (Estrie)

@@ -1,12 +1,12 @@
 ---
 layout: produits
-title: Nos Produits
+title: Produits
 permalink: /produits
 description: Production et distribution de kombucha biologique en Estrie.
-slogan: 7 saveurs uniques, disponibles à nos points de vente
+slogan: 7 saveurs uniques de kombucha
 cover_image: /img/kombucha-glass.jpg
 product:
-  - image: /img/framboise.jpg
+  - image: /img/framboise-camerise.jpg
     title: Framboise, camerise et menthe
     desc: >-
       Ce kombucha festif aux saveurs fruitées et rafraichissantes de petits fruits rouges en fera rougir les cocktails les plus raffinés. La camerise est un superfruit riche en antioxydant venant bonifier les bienfaits pour la santé.

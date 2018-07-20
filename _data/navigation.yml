@@ -3,9 +3,9 @@ main_nav:
     url: /produits
   - title: Points de vente
     url: /points-de-vente
-  - title: Fournisseurs
-    url: /fournisseurs
-  - title: Articles
-    url: /articles
+  - title: Partenaires locaux
+    url: /partenaires-locaux
+  - title: Publications
+    url: /publications
   - title: Contact
     url: /contact

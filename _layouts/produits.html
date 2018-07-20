@@ -8,7 +8,7 @@ layout: default
 
   {% for item in page.product %}
 
-  <div class="product w-100 w-33-l pa4">
+  <div class="product w-100 w-50-l pa4">
     <div class="tc">
       <img class="br-100" src="{{item.image}}" alt="{{item.title}}"/>
       <div class="title tl">
@@ -22,8 +22,11 @@ layout: default
         {{item.ingredients | markdownify}}
       </div>
     </div>
-    <img class="logo dib" src="/img/logo-bio-canada.png"/>
-    <img class="logo dib" src="/img/ecocert.png"/>
+    <div class="flex items-center">
+      <img class="logo dib" src="/img/logo-bio-canada.png"/>
+      <img class="logo dib pl1" src="/img/ecocert.png"/>
+      <span class="pl2 f6 gray dib">Certifié par / Certified by Ecocert Canada</span>
+    </div>
   </div>
 
   {% endfor %}
