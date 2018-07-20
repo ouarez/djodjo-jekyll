@@ -57,14 +57,6 @@ fournisseurs:
 
       Nous sommes heureux d’encourager une entreprise familiale mettant de l’avant les mêmes valeurs sociales et environnementales. De plus, leurs houblons sont de très bonne qualité et leur service est rapide.
 
-  - image: /img/delices-compton.png
-    title: Les Délices de Compton (Estrie)
-    desc: >-
-      Ferme familiale cultivant et préparant une multitude de fruits biologiques dans son verger:  cerises griottes dénoyautées, camerises, amélanches qui sont offerts congelés ou transformés ainsi que des fruits frais de verger en saison.
-
-
-      Nous achetons leur délicieux jus de cerise et d’amélanche pour notre kombucha à ces saveurs.
-
   - image: /img/malterie-frontenac.png
     title: Malterie Frontenac (Chaudière-Appalaches)
     desc: >-
