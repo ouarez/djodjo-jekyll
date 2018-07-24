@@ -37,7 +37,7 @@ produits:
       ravir même les nouvellement initiés de par sa douceur et ses arômes
       floraux.
     ecocert: true
-    image: /img/cerise.jpg
+    image: /img/cerise-et-houblon.jpg
     ingredients: >-
       **INGRÉDIENTS**
 
@@ -60,7 +60,7 @@ produits:
       papilles tout en vous procurant une sensation de bien-être. Il saura
       ensoleiller votre quotidien durant toute l’année.
     ecocert: true
-    image: /img/fraise.jpg
+    image: /img/fraise-peche.jpg
     ingredients: >-
       **INGRÉDIENTS**
 
@@ -82,7 +82,7 @@ produits:
       carotte, le jus de racine de curcuma et qu’on fermente le tout en kombucha
       :  Le summum pour détoxifier et revigorer son corps et son âme!
     ecocert: true
-    image: /img/carotte.jpg
+    image: /img/carotte-pomme.jpg
     ingredients: >-
       **INGRÉDIENTS**
 
@@ -104,7 +104,7 @@ produits:
       l’ajout d’un peu de citron. C’est une concoction simple, zen, vivifiante
       et agréable en toute circonstance.
     ecocert: true
-    image: /img/gingembre.jpg
+    image: /img/gingembre-citron.jpg
     ingredients: >-
       **INGRÉDIENTS**
 
@@ -152,7 +152,7 @@ produits:
     ecocert: true
     image: /img/fraicheur-forestiere.jpg
     ingredients: >-
-      **INGRÉDIENTS BIOLOGIQUES**
+      **INGRÉDIENTS**
 
 
       culture de kombucha\*\*, eau, sucre doré\*, mélange forestier (pousse de
@@ -167,4 +167,3 @@ produits:
       (chondrus crispus)
     title: Fraîcheur forestière
 ---
-
