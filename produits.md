@@ -69,13 +69,16 @@ produits:
     desc: >-
       La réputation du classique kombucha au gingembre n’est plus à faire. Nous la réinventons avec l’utilisation de jus de gingembre pressé à froid et l’ajout d’un peu de citron. C’est une concoction simple, zen, vivifiante et agréable en toute circonstance.
     ingredients: >-
-      **INGRÉDIENTS BIOLOGIQUES**
+      **INGRÉDIENTS**
 
 
-      culture de kombucha*, eau, sucre, jus de citron, jus de gingembre, thé vert, thé noir.
+      culture de kombucha**, eau, sucre doré*, jus de citron*, jus de gingembre*, thés (vert*, noir*).
 
 
-      *contient de l’orge maltée biologique et de l’extrait d’algue rouge (chondrus crispus)
+      *biologique
+
+
+      **contient de l’orge maltée biologique et de l’extrait d’algue rouge (chondrus crispus)
     ecocert: true
 
   - image: /img/houblons.jpg
@@ -100,7 +103,13 @@ produits:
       **INGRÉDIENTS BIOLOGIQUES**
 
 
-      culture de kombucha*, eau, sucre doré, mélange forestier (pousse de sapin baumier, écorce de cèdre thuya,  pousse d’épinette rouge, baie de genévrier), houblon Nugget.
+      culture de kombucha**, eau, sucre doré*, mélange forestier (pousse de sapin baumier, écorce de cèdre thuya,  pousse d’épinette rouge, baie de genévrier), houblon Nugget*.
+
+
+      *biologique
+
+
+      **contient de l’orge maltée biologique et de l’extrait d’algue rouge (chondrus crispus)
 
 
       *contient de l’orge maltée biologique et de l’extrait d’algue rouge (chondrus crispus)
