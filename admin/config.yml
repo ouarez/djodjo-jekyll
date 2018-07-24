@@ -61,6 +61,8 @@ collections:
               - {label: Nom, name: title, widget: string}
               - {label: Description, name: desc, widget: text}
               - {label: Ingrédients, name: ingredients, widget: markdown}
+              - {label: Biologique?, name: bio, widget: boolean}
+              - {label: Certifié Ecocert?, name: ecocert, widget: boolean}
 
   - name: "settings"
     label: "Paramètres du site"

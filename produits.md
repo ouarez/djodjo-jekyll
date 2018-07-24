@@ -21,7 +21,7 @@ produits:
 
 
       **contient de l’orge maltée biologique et de l’extrait d’algue rouge (chondrus crispus)
-    ecocan: true
+    ecocert: true
   - image: /img/cerise.jpg
     title: Cerise et amélanche
     desc: >-
@@ -34,7 +34,7 @@ produits:
 
 
       *contient de l’orge maltée biologique et de l’extrait d’algue rouge (chondrus crispus)
-    ecocan: true
+    ecocert: true
 
   - image: /img/fraise.jpg
     title: Fraise, pêche et gingembre
@@ -48,7 +48,7 @@ produits:
 
 
       *contient de l’orge maltée biologique et de l’extrait d’algue rouge (chondrus crispus)
-    ecocan: true
+    ecocert: true
 
   - image: /img/carotte.jpg
     title: Pomme, carotte et curcuma
@@ -62,7 +62,7 @@ produits:
 
 
       *contient de l’orge maltée biologique et de l’extrait d’algue rouge (chondrus crispus)
-    ecocan: true
+    ecocert: true
 
   - image: /img/gingembre.jpg
     title: Gingembre et citron
@@ -76,7 +76,7 @@ produits:
 
 
       *contient de l’orge maltée biologique et de l’extrait d’algue rouge (chondrus crispus)
-    ecocan: true
+    ecocert: true
 
   - image: /img/houblons.jpg
     title: Houblons tropicaux
@@ -90,7 +90,7 @@ produits:
 
 
       *contient de l’orge maltée biologique et de l’extrait d’algue rouge (chondrus crispus)
-    ecocan: true
+    ecocert: true
 
   - image: /img/fraicheur-forestiere.jpg
     title: Fraîcheur forestière
@@ -104,5 +104,5 @@ produits:
 
 
       *contient de l’orge maltée biologique et de l’extrait d’algue rouge (chondrus crispus)
-    ecocan: true
+    ecocert: true
 ---
