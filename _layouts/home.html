@@ -2,32 +2,28 @@
 layout: default
 ---
 
-<header class="w-100 vh-100-l cover" style="background-image:url('/img/kombucha-cover.jpg');">
-  <div class="shadow vh-100-l">
+<header class="w-100 vh-85 cover" style="background-image:url('/img/kombucha-cover.jpg');">
+  <div class="shadow vh-85">
 
-    <div class="hero container flex flex-wrap pv3 ph3 ph4-l">
+    <div class="hero container flex flex-wrap pt3 ph3 ph4-l">
 
       <img id="logo" class="pr5-l ml-auto mr-auto ml0-l mr0-l" src="/img/djodjo-white.png" alt="Djodjo Kombucha"/>
 
-      <nav class="main w-100 w-70-l dn db-l tl mt3 pt1">
-        <a class="pr4 white" href="/produits">Produits</a>
-        <a class="pr4 white" href="/points-de-vente">Points de vente</a>
-        <a class="pr4 white" href="/fournisseurs">Fournisseurs</a>
-        <a class="pr4 white" href="/articles">Articles</a>
-        <a class="pr4 white" href="/contact">Contact</a>
+      <nav class="main w-100 w-75-l dn db-l tr mt3 pt1">
+        {% for item in site.data.navigation.main_nav %}
+        <a class="pr4 white {% if item.url == page.url %}active{% endif %}" href="{{item.url}}">{{item.title}}</a>
+        {% endfor %}
       </nav>
 
       <nav class="mobile w-100 dn-l pv3 tc">
-        <a class="db pv3" href="/produits">Produits</a>
-        <a class="db pv3" href="/points-de-vente">Points de vente</a>
-        <a class="db pv3" href="/fournisseurs">Fournisseurs</a>
-        <a class="db pv3" href="/articles">Articles</a>
-        <a class="db pv3" href="/contact">Contact</a>
+        {% for item in site.data.navigation.main_nav %}
+          <a class="db pv3 {% if item.url == page.url %}active{% endif %}" href="{{item.url}}">{{item.title}}</a>
+        {% endfor %}
       </nav>
 
-      <div class="w-100 w-60-l white pv3 pv5-l tc tl-l">
-        <h1 class="f1 alt-font ttu">L'effervescence de la vie</h1>
-        <h2 class="dib f2 alt-font ttu tracked"><i class="fas fa-chevron-circle-right mr3 pt2 dib f2"></i>7 saveurs disponibles</h2>
+      <div class="w-100 white pv3 pv5-l tc">
+        <h1 class="f2 f1-l alt-font ttu">L'effervescence de la vie</h1>
+        <h2 class="f3 f2-l dib alt-font ttu tracked"><i class="fas fa-chevron-circle-right mr3 dib"></i>7 saveurs disponibles</h2>
       </div>
 
     </div>

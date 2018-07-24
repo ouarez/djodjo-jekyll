@@ -6,7 +6,7 @@
         <img id="logo" class="pr5-l pl3-l mb3 mb0-l" src="/img/djodjo-kombucha.png" alt="Djodjo Kombucha"/>
       </a>
 
-      <nav class="main w-100 w-70-l dn db-l tl mt3 pt1">
+      <nav class="main w-100 w-80-l dn db-l tr mt3 pt1">
         {% for item in site.data.navigation.main_nav %}
           <a class="pr4 mid-gray {% if item.url == page.url %}active{% endif %}" href="{{item.url}}">{{item.title}}</a>
         {% endfor %}

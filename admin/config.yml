@@ -43,6 +43,25 @@ collections:
               - {label: Description du lien, name: square_link_desc, widget: string}
               - {label: Image du carré, name: square_image, widget: image}
 
+      - name: "produits"
+        file: "produits.md"
+        label: "Éditer la page des Produits"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "produits"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/produits" }
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Slogan", name: "slogan", widget: "string"}
+          - {label: "Image de couverture", name: "cover_image", widget: "image"}
+          - label: "Produits"
+            name: "produits"
+            widget: "list"
+            fields:
+              - {label: Image, name: image, widget: image}
+              - {label: Nom, name: title, widget: string}
+              - {label: Description, name: desc, widget: text}
+              - {label: Ingrédients, name: ingredients, widget: markdown}
+
   - name: "settings"
     label: "Paramètres du site"
     delete: false # Prevent users from deleting documents in this collection

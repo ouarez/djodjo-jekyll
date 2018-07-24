@@ -5,19 +5,22 @@ permalink: /produits
 description: Production et distribution de kombucha biologique en Estrie.
 slogan: 7 saveurs uniques de kombucha
 cover_image: /img/kombucha-glass.jpg
-product:
+produits:
   - image: /img/framboise-camerise.jpg
-    title: Framboise, camerise et menthe
+    title: Framboise et camerise
     desc: >-
       Ce kombucha festif aux saveurs fruitées et rafraichissantes de petits fruits rouges en fera rougir les cocktails les plus raffinés. La camerise est un superfruit riche en antioxydant venant bonifier les bienfaits pour la santé.
     ingredients: >-
-      **INGRÉDIENTS BIOLOGIQUES**
+      **INGRÉDIENTS**
 
 
-      culture de kombucha*, eau, jus de framboise, jus de camerise, sucre doré, menthe.
+      culture de kombucha\*\*, eau, jus de framboise\*, sucre doré\*, jus de camerise\*, houblons (Glacier, Bramling Cross).
 
 
-      *contient de l’orge maltée biologique et de l’extrait d’algue rouge (chondrus crispus)
+      *biologique
+
+
+      **contient de l’orge maltée biologique et de l’extrait d’algue rouge (chondrus crispus)
     ecocan: true
   - image: /img/cerise.jpg
     title: Cerise et amélanche

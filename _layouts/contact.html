@@ -1,25 +1,36 @@
-<div class="w-100 pv3">
+---
+layout: default
+---
 
-  <form name="contact" data-netlify="true" class="w-100">
+{% include header.html %}
 
-    <div class="w-100 w-50-l fl mv3 pr3">
-      <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black b f5" placeholder="Name*" type="text" name="name" id="name" required>
-      <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black b f5" placeholder="Email*" type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
-      <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black b f5" placeholder="Organization" type="text" name="name" id="name">
-      <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black b f5" placeholder="Phone Number" type="tel" name="tel" id="tel" pattern="^\d{3}-\d{3}-\d{4}$">
-      <select class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black b f5" required>
-        <option value="" disabled selected>Subject*</option>
-        {% for item in page.subjects %}
-        <option value="{{item.subject}}">{{item.subject}}</option>
-        {% endfor %}
-      </select>
-      <input class="w-100 pa3 mv2 input-reset ba b--light-gray br2 white f5 pointer" type="submit" value="Send">
-    </div>
+<main class="container pv3 ph3 pv4-l ph5-l">
 
-    <div class="w-100 w-50-l fl mv3 pr3">
-      <textarea class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 gray f5" placeholder="Message*" name="message" id="message" required></textarea>
-    </div>
+  <div class="w-100 pv3">
 
-  </form>
+    <span class="gray f6">Les champs marqués d'une * sont obligatoires.</span>
 
-</div>
+    <form name="contact" data-netlify="true" class="w-100">
+
+
+
+      <div class="w-100 w-50-l fl mv3 pr3">
+        <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Nom*" type="text" name="name" id="name" required>
+        <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Courriel*" type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+        <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Entreprise/compagnie" type="text" name="name" id="name">
+        <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Numéro de téléphone" type="tel" name="tel" id="tel" pattern="^\d{3}-\d{3}-\d{4}$">
+        <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Titre du message*" type="text" name="subject" id="subject" required>
+        <input class="w-100 pa3 mv2 input-reset ba b--light-gray br2 f5 pointer blue" type="submit" value="Send">
+      </div>
+
+      <div class="w-100 w-50-l fl mv3 pr3">
+        <textarea class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 gray f5" placeholder="Message*" name="message" id="message" required></textarea>
+      </div>
+
+    </form>
+
+  </div>
+
+</main>
+
+{% include footer.html %}

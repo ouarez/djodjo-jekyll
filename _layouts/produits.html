@@ -6,20 +6,20 @@ layout: default
 
 <main class="container flex flex-wrap pl3 pt3">
 
-  {% for item in page.product %}
+  {% for produit in page.produits %}
 
   <div class="product w-100 w-50-l pa4">
     <div class="tc">
-      <img class="br-100" src="{{item.image}}" alt="{{item.title}}"/>
+      <img class="br-100" src="{{produit.image}}" alt="{{produit.title}}"/>
       <div class="title tl">
-        <h4 class=" mt4 serif b dark-red">{{item.title}}</h4>
+        <h4 class=" mt4 serif b dark-red">{{produit.title}}</h4>
         <span class="ttu f6 gray">Biologique</span>
       </div>
       <div class="description tl">
-        <p>{{item.desc}}</p>
+        <p>{{produit.desc}}</p>
       </div>
       <div class="ingredients tl gray f6 mt2">
-        {{item.ingredients | markdownify}}
+        {{produit.ingredients | markdownify}}
       </div>
     </div>
     <div class="flex items-center">
