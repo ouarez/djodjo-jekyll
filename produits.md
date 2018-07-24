@@ -152,7 +152,7 @@ produits:
     ecocert: true
     image: /img/fraicheur-forestiere.jpg
     ingredients: >-
-      **INGRÉDIENTS BIOLOGIQUES**
+      **INGRÉDIENTS**
 
 
       culture de kombucha\*\*, eau, sucre doré\*, mélange forestier (pousse de
