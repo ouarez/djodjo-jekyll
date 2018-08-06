@@ -30,20 +30,18 @@ produits:
     title: Framboise et camerise
   - bio: true
     desc: >-
-      L’acidité de la cerise griotte combinée aux goûts herbacé et fruité de
-      fleur de houblons s’allient pour donner une boisson parfaitement
-      équilibrée et se prêtant à toute occasion. Des variétés de houblon au goût
-      de baies sauvages ont été spécialement sélectionnées. Ce kombucha saura
-      ravir même les nouvellement initiés de par sa douceur et ses arômes
-      floraux.
+      La réputation du classique kombucha au gingembre n’est plus à faire. Nous
+      la réinventons avec l’utilisation de jus de gingembre pressé à froid et
+      l’ajout d’un peu de citron. C’est une concoction simple, zen, vivifiante
+      et agréable en toute circonstance.
     ecocert: true
-    image: /img/cerise-et-houblon.jpg
+    image: /img/gingembre-citron.jpg
     ingredients: >-
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, jus de cerise griotte\*, sucre doré\*,
-      houblons (Bramling Cross, Glacier).
+      culture de kombucha\*\*, eau, sucre doré\*, jus de citron\*, jus de
+      gingembre\*, thés (vert\*, noir*).
 
 
       \*biologique
@@ -51,7 +49,31 @@ produits:
 
       \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
       (chondrus crispus)
-    title: Cerise et fleurs de houblon
+    title: Gingembre et citron
+  - bio: true
+    desc: >-
+      Un kombucha à saveur sauvage bien de chez-nous. De légères notes de sapin,
+      d’épinette, de cèdre et de genévrier chatouillent nos cellules gustatives
+      et olfactives. C’est une boisson complexe, mais douce, qui vous apaisera
+      comme une promenade en forêt. Il peut aussi servir d’excellent tonique
+      pour le gin.
+    ecocert: true
+    image: /img/fraicheur-forestiere.jpg
+    ingredients: >-
+      **INGRÉDIENTS**
+
+
+      culture de kombucha\*\*, eau, sucre doré\*, mélange forestier (pousse de
+      sapin baumier, écorce de cèdre thuya,  pousse d’épinette rouge, baie de
+      genévrier), houblon Nugget\*.
+
+
+      \*biologique
+
+
+      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
+      (chondrus crispus)
+    title: Fraîcheur forestière
   - bio: true
     desc: >-
       Le breuvage idéal pour se désaltérer l’été ou pour s’imaginer prendre un
@@ -77,6 +99,30 @@ produits:
     title: 'Fraise, pêche et gingembre'
   - bio: true
     desc: >-
+      L’acidité de la cerise griotte combinée aux goûts herbacé et fruité de
+      fleur de houblons s’allient pour donner une boisson parfaitement
+      équilibrée et se prêtant à toute occasion. Des variétés de houblon au goût
+      de baies sauvages ont été spécialement sélectionnées. Ce kombucha saura
+      ravir même les nouvellement initiés de par sa douceur et ses arômes
+      floraux.
+    ecocert: true
+    image: /img/cerise-et-houblon.jpg
+    ingredients: >-
+      **INGRÉDIENTS**
+
+
+      culture de kombucha\*\*, eau, jus de cerise griotte\*, sucre doré\*,
+      houblons (Bramling Cross, Glacier).
+
+
+      \*biologique
+
+
+      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
+      (chondrus crispus)
+    title: Cerise et fleurs de houblon
+  - bio: true
+    desc: >-
       «Une pomme par jour éloigne le docteur pour toujours» dit le dicton, mais
       imaginez si on y ajoute des alliés reconnus pour la santé tels le jus de
       carotte, le jus de racine de curcuma et qu’on fermente le tout en kombucha
@@ -97,28 +143,6 @@ produits:
       \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
       (chondrus crispus)
     title: 'Pomme, carotte et curcuma'
-  - bio: true
-    desc: >-
-      La réputation du classique kombucha au gingembre n’est plus à faire. Nous
-      la réinventons avec l’utilisation de jus de gingembre pressé à froid et
-      l’ajout d’un peu de citron. C’est une concoction simple, zen, vivifiante
-      et agréable en toute circonstance.
-    ecocert: true
-    image: /img/gingembre-citron.jpg
-    ingredients: >-
-      **INGRÉDIENTS**
-
-
-      culture de kombucha\*\*, eau, sucre doré\*, jus de citron\*, jus de
-      gingembre\*, thés (vert\*, noir*).
-
-
-      \*biologique
-
-
-      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
-      (chondrus crispus)
-    title: Gingembre et citron
   - bio: true
     desc: >-
       Un clin d’œil aux amateurs de bière NEIPA et à tous ceux qui sont attirés
@@ -142,28 +166,5 @@ produits:
       \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
       (chondrus crispus)
     title: Houblons tropicaux
-  - bio: true
-    desc: >-
-      Un kombucha à saveur sauvage bien de chez-nous. De légères notes de sapin,
-      d’épinette, de cèdre et de genévrier chatouillent nos cellules gustatives
-      et olfactives. C’est une boisson complexe, mais douce, qui vous apaisera
-      comme une promenade en forêt. Il peut aussi servir d’excellent tonique
-      pour le gin.
-    ecocert: true
-    image: /img/fraicheur-forestiere.jpg
-    ingredients: >-
-      **INGRÉDIENTS**
-
-
-      culture de kombucha\*\*, eau, sucre doré\*, mélange forestier (pousse de
-      sapin baumier, écorce de cèdre thuya,  pousse d’épinette rouge, baie de
-      genévrier), houblon Nugget\*.
-
-
-      \*biologique
-
-
-      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
-      (chondrus crispus)
-    title: Fraîcheur forestière
 ---
+
