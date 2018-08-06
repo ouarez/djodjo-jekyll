@@ -11,6 +11,7 @@ $primary: #eee;
 $contrast:#333;
 $red: #CF4537;
 $blue: #5fa3b0;
+$light-blue: #428bca;
 $font-weight:100;
 
 .serif {
@@ -41,6 +42,10 @@ body {
   color:white;
 }
 
+.light-blue {
+  color:$light-blue;
+}
+
 .container {
   max-width:1200px;
   margin-left:auto;
@@ -50,6 +55,11 @@ body {
 .vh-85 {
   height:85vh;
   min-height:700px;
+}
+
+.link {
+  text-decoration:none;
+  &:hover {text-decoration: underline;}
 }
 
 // typography
