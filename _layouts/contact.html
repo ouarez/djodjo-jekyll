@@ -10,21 +10,19 @@ layout: default
 
     <span class="gray f6">Les champs marqués d'une * sont obligatoires.</span>
 
-    <form name="contact" data-netlify="true" class="w-100">
-
-
+    <form name="contact" data-netlify="true">
 
       <div class="w-100 w-50-l fl mv3 pr3">
         <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Nom*" type="text" name="name" id="name" required>
         <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Courriel*" type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+        <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Titre du message*" type="text" name="subject" id="subject" required>
         <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Entreprise/compagnie" type="text" name="name" id="name">
         <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Numéro de téléphone" type="tel" name="tel" id="tel" pattern="^\d{3}-\d{3}-\d{4}$">
-        <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Titre du message*" type="text" name="subject" id="subject" required>
-        <input class="w-100 pa3 mv2 input-reset ba b--light-gray br2 f5 pointer blue" type="submit" value="Send">
       </div>
 
       <div class="w-100 w-50-l fl mv3 pr3">
         <textarea class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 gray f5" placeholder="Message*" name="message" id="message" required></textarea>
+        <input class="w-100 pa3 mv2 input-reset ba b--light-gray br2 f5 pointer blue" type="submit" value="Envoyer">
       </div>
 
     </form>

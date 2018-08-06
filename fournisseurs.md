@@ -19,7 +19,7 @@ fournisseurs:
       Spécialisée dans la vente au détail de fournitures et accessoires destinés à la vinification et au brassage domestique, Vinestrie vous informe, vous conseille et vous assiste afin que toutes vos cuvées et chacun de vos brassins soient réussis à la perfection.
 
 
-      Depuis le tout début de l’aventure entrepreneuriale de Djodjo Kombucha, Patrick et son équipe nous ont aidés avec ses conseils en brassage et avec son offre complète d’équipement artisanale pouvant être utilisée pour la production de kombucha. Merci pour leur confiance et son enthousiasme à devenir mes 2e et 3e points de vente à Sherbrooke.
+      Depuis le tout début de l’aventure entrepreneuriale de Djodjo Kombucha, Patrick et son équipe nous ont aidé avec leurs conseils en brassage et avec leur offre complète d’équipement artisanal pouvant être utilisé pour la production de kombucha. Merci pour leur confiance et leur enthousiasme à devenir mes 2e et 3e points de vente à Sherbrooke.
   - image: /img/houblons-franklin.jpg
     title: Houblons Franklin (Montérégie)
     desc: >-

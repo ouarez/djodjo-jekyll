@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<header class="w-100 vh-85 cover" style="background-image:url('/img/kombucha-cover.jpg');">
-  <div class="shadow vh-85">
+<header class="w-100 vh-100 vh-75-l cover" style="background-image:url('/img/kombucha-cover.jpg');">
+  <div class="shadow vh-100 vh-75-l">
 
-    <div class="hero container flex flex-wrap pt3 ph3 ph4-l">
+    <div class="hero container flex flex-wrap pt3 ph3 ph4-l justify-around">
 
       <img id="logo" class="pr5-l ml-auto mr-auto ml0-l mr0-l" src="/img/djodjo-white.png" alt="Djodjo Kombucha"/>
 
-      <nav class="main w-100 w-75-l dn db-l tr mt3 pt1">
+      <nav class="main dn db-l tr mt3 pt1">
         {% for item in site.data.navigation.main_nav %}
         <a class="pr4 white {% if item.url == page.url %}active{% endif %}" href="{{item.url}}">{{item.title}}</a>
         {% endfor %}
@@ -21,8 +21,8 @@ layout: default
         {% endfor %}
       </nav>
 
-      <div class="w-100 white pv3 pv5-l tc">
-        <h1 class="f2 f1-l alt-font ttu">L'effervescence de la vie</h1>
+      <div class="w-100 white pv3 pv5-l tc mt3 mt5-l">
+        <h1 class="f2 f1-l alt-font ttu b">L'effervescence de la vie</h1>
         <h2 class="f3 f2-l dib alt-font ttu tracked"><i class="fas fa-chevron-circle-right mr3 dib"></i>7 saveurs disponibles</h2>
       </div>
 

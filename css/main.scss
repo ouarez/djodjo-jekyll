@@ -109,12 +109,11 @@ header {
 
   nav.main {
     a {
-      font-size:14px;
+      font-size:16px;
       text-decoration: none;
       font-family:$alternate-font;
       text-transform: uppercase;
       font-weight:bold;
-      text-shadow: 2px 1px #000;
       &:hover {
         text-decoration:underline;
       }
@@ -130,8 +129,7 @@ header {
       font-weight:bold;
       font-family:$alternate-font;
       text-transform: uppercase;
-      text-shadow: 2px 1px #000;
-    }
+        }
     a.active {text-decoration:underline;color:white;}
   }
 
@@ -170,7 +168,7 @@ main {
 
   form {
     textarea {
-      height:395px;
+      height:258px;
     }
   }
 
