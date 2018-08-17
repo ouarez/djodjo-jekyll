@@ -10,38 +10,56 @@ layout: default
 
     <div class="w-100 w-30-l">
 
-      <div class="mv4">
-        <h4 class="alt-font b">Café Campus</h4>
-        <span class="lh-title">57 Rue Prince Arthur E<br/>Montréal, QC H2X 1B4</span>
-        <a class="db mv2 light-blue link" href="https://www.cafecampus.com/">www.cafecampus.com</a>
-      </div>
+      {% for location in page.locations %}
 
       <div class="mv4">
-        <h4 class="alt-font b">Coop La Maison Verte</h4>
-        <span class="lh-title">5785 Sherbrooke St W<br/>Montreal, QC H4A 1X2</span>
-        <a class="db mv2 light-blue link" href="http://www.cooplamaisonverte.com/">www.cooplamaisonverte.com</a>
+        <h4 class="alt-font b">{{location.title}}</h4>
+        <span class="lh-title">{{location.address_1}}<br/>{{location.address_2}}</span>
+        <a class="db mv2 light-blue link" href="{{location.url}}">{{location.url_text}}</a>
       </div>
 
-      <div class="mv4">
-        <h4 class="alt-font b">Rachelle-Béry</h4>
-        <span class="lh-title">4810 Boul St-Laurent<br/>Montréal, QC H2T 1R5</span>
-        <a class="db mv2 light-blue link" href="https://www.rachellebery.ca/">www.rachellebery.ca</a>
-      </div>
+      {% endfor %}
 
     </div>
 
-    <div class="w-100 w-70-l">
-      <iframe
-      width="100%"
-      height="100%"
-      frameborder="0" style="border:0"
-      src="https://www.google.com/maps/embed/v1/search?key=AIzaSyAfrnzmTX6xsf41GRgJnqzIjaXW_-z337o&q=record+stores+in+Seattle" allowfullscreen>
-      </iframe>
+    <div class="w-100 w-70-l" id="map">
+
     </div>
 
   </div>
 
 
 </main>
+
+<script>
+var map;
+function initMap() {
+  {% for location in page.locations %}
+    var myLatlng{{ forloop.index }} = new google.maps.LatLng({{location.lat}},{{location.long}});
+    var infowindow{{ forloop.index }} = new google.maps.InfoWindow({
+      content: '<h4>{{location.title}}</h4>'+
+      '<strong>{{location.address_1}}<br/>{{location.address_2}}</strong>'
+    });
+  {% endfor %}
+  var mapOptions = {
+    zoom: 13,
+    center: myLatlng1
+  };
+  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+  {% for location in page.locations %}
+    var marker{{ forloop.index }} = new google.maps.Marker({
+        position: myLatlng{{ forloop.index }},
+        map:map,
+        title: "{{location.title}}"
+    });
+    marker{{ forloop.index }}.addListener('click', function() {
+      infowindow{{ forloop.index }}.open(map, marker{{ forloop.index }});
+    });
+  {% endfor %}
+};
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfrnzmTX6xsf41GRgJnqzIjaXW_-z337o&callback=initMap"
+    async defer></script>
 
 {% include footer.html %}
