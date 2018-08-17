@@ -3,7 +3,7 @@ layout: produits
 title: Produits
 permalink: /produits
 description: Production et distribution de kombucha biologique en Estrie.
-slogan: 7 saveurs uniques de kombucha
+slogan: 8 saveurs originales de kombucha
 cover_image: /img/kombucha-glass.jpg
 produits:
   - bio: true
@@ -40,7 +40,7 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, sucre doré\*, jus de citron\*, jus de
+      culture de kombucha\*\*, eau, jus de citron\*, sucre doré\*, jus de
       gingembre\*, thés (vert\*, noir*).
 
 
@@ -63,9 +63,9 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, sucre doré\*, mélange forestier (pousse de
-      sapin baumier, écorce de cèdre thuya,  pousse d’épinette rouge, baie de
-      genévrier), houblon Nugget\*.
+      culture de kombucha\*\*, eau, sucre doré\*, tisane forestière (pousse de
+      sapin baumier, écorce de cèdre thuya, pousse d’épinette rouge, baie de
+      genièvre), houblons (Chinook\*, Nugget*).
 
 
       \*biologique
@@ -88,7 +88,7 @@ produits:
 
 
       culture de kombucha\*\*, eau, jus de fraise\*, sucre doré\*, jus de
-      gingembre*, essence naturelle de pêche, houblons (Belma, Huell Melon).
+      gingembre*, saveur naturelle de pêche, houblons (Belma, Huell Melon).
 
 
       \*biologique
@@ -112,7 +112,7 @@ produits:
 
 
       culture de kombucha\*\*, eau, jus de cerise griotte\*, sucre doré\*,
-      houblons (Bramling Cross, Glacier).
+      houblons (Mosaic, Newport\*, Newport vert\*).
 
 
       \*biologique
@@ -133,8 +133,8 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, jus de pomme\*, sucre doré\*, jus de
-      carotte\*, jus de curcuma et gingembre\*, rooibos*.
+      culture de kombucha\*\*, eau, jus de pomme\*, jus de carotte\*, sucre
+      doré\*, jus de curcuma et gingembre\*, rooibos*.
 
 
       \*biologique
@@ -145,19 +145,21 @@ produits:
     title: 'Pomme, carotte et curcuma'
   - bio: true
     desc: >-
-      Un clin d’œil aux amateurs de bière NEIPA et à tous ceux qui sont attirés
-      par une explosion d’agrumes et de fruit de la passion. Cette saveur est
-      élaborée par infusion à froid d’un mélange d’houblons aux arômes
-      tropicaux. Ce kombucha au goût innovant et de faible amertume surprendra
-      même les amateurs avisés.
+      Un clin d’œil aux amateurs de bière houblonnée à froid et à tous ceux qui
+      sont attirés par une explosion florale de fruits de la passion et mangue.
+      Cette saveur est élaborée à partir d’une sélection de houblons reconnus
+      pour leurs arômes de fruits tropicaux. Ce kombucha au goût innovant et de
+      faible amertume surprendra même les amateurs
+
+      avisés de kombucha.
     ecocert: true
     image: /img/houblons.jpg
     ingredients: >-
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, sucre doré\*, houblons (Amarillo, Citra,
-      Cascade\*, Cascade vert\*, Newport\*, Newport vert*).
+      culture de kombucha\*\*, eau, sucre doré*, houblons (El Dorado, Galaxy,
+      Azacca, Amarillo).
 
 
       \*biologique
@@ -166,4 +168,25 @@ produits:
       \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
       (chondrus crispus)
     title: Houblons tropicaux
+  - bio: true
+    desc: >-
+      Une variante du kombucha «Houblons passion tropicale», cette version mise
+      plutôt sur une gamme de houblons à saveur d’agrumes. Un tourbillon de
+      mandarine, pamplemousse, citron et lime vous illuminera de vivacité.
+    ecocert: true
+    ingredients: >-
+      **INGRÉDIENTS**
+
+
+      culture de kombucha\*\*, eau, sucre doré\*, houblons (Mandarina Bavaria,
+      Citra, Comet, Cascade\*, Cascade vert*).
+
+
+      \*biologique
+
+
+      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
+      (chondrus crispus)
+    title: Agrumes houblonnés
 ---
+
