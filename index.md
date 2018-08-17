@@ -3,7 +3,7 @@ layout: home
 title: Accueil
 description: Production et distribution de kombucha biologique en Estrie.
 slogan1: L'effervescence de la vie
-slogan2: 7 saveurs disponibles
+slogan2: 8 saveurs originales
 cover_link: /produits
 cover_image: /img/djodjo-cover.jpg
 products:
@@ -90,9 +90,12 @@ square:
     square_link_desc: En savoir plus sur nos fournisseurs
     square_name: Fournisseurs locaux
   - square_desc: >-
-      Nous publions régulièrement des articles et des recettes qui expliquent nos méthodes et notre savoir-faire. Partager nos connaissances permettra d'inspirer celui ou celle qui voudra créer sa propre Kombucha.
+      Nous publions régulièrement des articles et des recettes qui expliquent
+      nos méthodes et notre savoir-faire. Partager nos connaissances permettra
+      d'inspirer celui ou celle qui voudra créer sa propre Kombucha.
     square_image: /img/recettes-articles.jpg
     square_link: /articles-et-recettes
     square_link_desc: En savoir plus sur nos fournisseurs
     square_name: Recettes et articles
 ---
+
