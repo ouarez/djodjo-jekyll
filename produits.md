@@ -153,7 +153,7 @@ produits:
 
       avisés de kombucha.
     ecocert: true
-    image: /img/houblons.jpg
+    image: /img/houblons-passion-tropicale.jpg
     ingredients: >-
       **INGRÉDIENTS**
 
@@ -174,6 +174,7 @@ produits:
       plutôt sur une gamme de houblons à saveur d’agrumes. Un tourbillon de
       mandarine, pamplemousse, citron et lime vous illuminera de vivacité.
     ecocert: true
+    image: /img/agrumes-houblonnés.jpg
     ingredients: >-
       **INGRÉDIENTS**
 
