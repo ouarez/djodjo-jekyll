@@ -167,7 +167,7 @@ produits:
 
       \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
       (chondrus crispus)
-    title: Houblons pasion tropicale
+    title: Houblons passion tropicale
   - bio: true
     desc: >-
       Une variante du kombucha «Houblons passion tropicale», cette version mise
