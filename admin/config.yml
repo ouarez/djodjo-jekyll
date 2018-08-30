@@ -79,7 +79,7 @@ collections:
          fields:
           - label: "Navigation principale"
             name: main_nav
-            widget: object
+            widget: list
             required: false
             fields:
               - {label: Titre, name: title, widget: string}
