@@ -5,14 +5,7 @@ description: Production et distribution de kombucha biologique en Estrie.
 slogan1: L'effervescence de la vie
 slogan2: 8 saveurs originales
 cover_link: /produits
-cover_image: /img/djodjo-cover.jpg
-title1: À PROPOS DE NOUS
-text1: >-
-  Djodjo Kombucha, c’est une jeune entreprise innovante se voulant devenir un
-  créateur de saveur tout en étant un acteur de changement avec des pratiques
-  entrepreneuriales éthiques et écoresponsables. Elle a été fondée par Joël
-  Gagnon, bachelier en ingénierie passionné par la fermentation et
-  l'amélioration de notre qualité de vie sous toutes ses formes.
+cover_image: /img/kombucha-cover.jpg
 square:
   - desc: >-
       Rendre accessible à la population un produit écoresponsable et éthique en
@@ -49,3 +42,4 @@ square:
     link_desc: Voir nos publications
     name: Recettes et articles
 ---
+
