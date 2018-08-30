@@ -1,0 +1,11 @@
+main_nav:
+  - title: Produits
+    url: /produits
+  - title: Points de vente
+    url: points-de-vente
+  - title: Partenaires locaux
+    url: partenaires-locaux
+  - title: Publications
+    url: publications
+  - title: Contact
+    url: contact
