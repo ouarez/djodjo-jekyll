@@ -54,6 +54,24 @@ collections:
               - {label: Biologique?, name: bio, widget: boolean}
               - {label: Certifié Ecocert?, name: ecocert, widget: boolean}
 
+      - name: "partenaires"
+        file: "partenaires.md"
+        label: "Éditer la page des Partenaires Locaux"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "produits"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/produits" }
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Slogan", name: "slogan", widget: "string"}
+          - {label: "Image de couverture", name: "cover_image", widget: "image"}
+          - label: "Partenaires"
+            name: "partenaires"
+            widget: "list"
+            fields:
+              - {label: Image, name: image, widget: image}
+              - {label: Nom, name: title, widget: string}
+              - {label: Description, name: desc, widget: text}
+              
   - name: "settings"
     label: "Paramètres du site"
     delete: false # Prevent users from deleting documents in this collection
@@ -77,7 +95,7 @@ collections:
          file: "_data/navigation.yml"
          description: "Navigation du site"
          fields:
-          - label: "Navigation principale"
+          - label: "Liens navigation"
             name: main_nav
             widget: list
             required: false

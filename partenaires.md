@@ -1,11 +1,11 @@
 ---
-layout: fournisseurs
+layout: partenaires
 title: Partenaires locaux
 permalink: /partenaires-locaux
 description: Djodjo Kombucha veut participer au développement de l’économie locale et provinciale en faisant affaire avec des fournisseurs, agriculteurs et commerces québécois. Vivement l’économie circulaire!
 slogan: fournisseurs, agriculteurs et commerces québécois.
 cover_image: /img/fournisseurs.jpg
-fournisseurs:
+partenaires:
   - image: /img/vertige.png
     title: Vertige Ferme Urbaine (Estrie)
     desc: >-  
