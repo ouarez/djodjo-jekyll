@@ -23,7 +23,11 @@ layout: default
 
       <div class="w-100 white pv3 pv5-l tc mt3 mt5-l">
         <h1 class="f2 f1-l alt-font ttu b">{{page.slogan1}}</h1>
-        <h2 class="f3 f2-l dib alt-font ttu tracked"><i class="fas fa-chevron-circle-right mr3 dib"></i>{{page.slogan2}}</h2>
+        <a class="white link" href="{{page.cover_link}}" alt="{{page.slogan2}}">
+          <h2 class="f3 f2-l dib alt-font ttu tracked">
+            <i class="fas fa-chevron-circle-right mr3 dib"></i>{{page.slogan2}}
+          </h2>
+        </a>
       </div>
 
     </div>
@@ -36,11 +40,14 @@ layout: default
   {% for item in page.square %}
 
     <div class="w-100 w-50-l">
-      <div class="square cover mh3 mb4" style="background-image:url('{{item.square_image}}')">
+      <div class="square cover mh3 mb4" style="background-image:url('{{item.image}}')">
         <div class="w-100 shadow dt">
           <div class="white tc dtc v-mid ph3 ph5-l">
-            <h3 class="ttu alt-font f2">{{item.square_name}}</h3>
-            <p>{{item.square_desc}}</p>
+            <h3 class="ttu alt-font f2">{{item.name}}</h3>
+            <p>{{item.desc}}</p>
+            <a href="{{item.link}}" alt="{{item.link_desc}}">
+              <button class="bg-blue white pv3 ph4 mt3 ba b--blue br4 pointer grow ttu f6 b">{{item.link_desc}}</button>
+            </a>
           </div>
         </div>
       </div>

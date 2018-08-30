@@ -23,25 +23,15 @@ collections:
           - {label: "Slogan 2", name: "slogan2", widget: "string"}
           - {label: "Lien couverture", name: "cover_link", widget: "string"}
           - {label: "Image de couverture", name: "cover_image", widget: "image"}
-          - label: "Produits"
-            name: "products"
-            widget: "list"
-            fields:
-              - {label: Nom du produit, name: product_name, widget: string}
-              - {label: Lien du produit, name: product_link, widget: string}
-              - {label: Description du produit, name: product_desc, widget: string}
-              - {label: Image du produit, name: product_image, widget: image}
-          - {label: "Titre 1", name: "title1", widget: "string"}
-          - {label: "Texte 1", name: "text1", widget: "string"}
           - label: "Carrés"
             name: "square"
             widget: "list"
             fields:
-              - {label: Titre du carré, name: square_name, widget: string}
-              - {label: Lien du carré, name: square_link, widget: string}
-              - {label: Description du carré, name: square_desc, widget: string}
-              - {label: Description du lien, name: square_link_desc, widget: string}
-              - {label: Image du carré, name: square_image, widget: image}
+              - {label: Titre du carré, name: name, widget: string}
+              - {label: Lien du carré, name: link, widget: string}
+              - {label: Description du carré, name: desc, widget: string}
+              - {label: Description du lien, name: link_desc, widget: string}
+              - {label: Image du carré, name: image, widget: image}
 
       - name: "produits"
         file: "produits.md"
