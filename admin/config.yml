@@ -19,9 +19,9 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/" }
           - {label: "Description", name: "description", widget: "string"}
-          - {label: "Slogan 1", name: "slogan1", widget: "string"}
-          - {label: "Slogan 2", name: "slogan2", widget: "string"}
-          - {label: "Lien couverture", name: "cover_link", widget: "string"}
+          - {label: "Slogan 1", name: "slogan1", widget: "string", required: false}
+          - {label: "Slogan 2", name: "slogan2", widget: "string", required: false}
+          - {label: "Lien couverture", name: "cover_link", widget: "string", required: false}
           - {label: "Image de couverture", name: "cover_image", widget: "image"}
           - label: "Carrés"
             name: "square"
@@ -41,7 +41,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/produits" }
           - {label: "Description", name: "description", widget: "string"}
-          - {label: "Slogan", name: "slogan", widget: "string"}
+          - {label: "Slogan", name: "slogan", widget: "string", required: false}
           - {label: "Image de couverture", name: "cover_image", widget: "image"}
           - label: "Produits"
             name: "produits"
@@ -62,7 +62,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/produits" }
           - {label: "Description", name: "description", widget: "string"}
-          - {label: "Slogan", name: "slogan", widget: "string"}
+          - {label: "Slogan", name: "slogan", widget: "string", required: false}
           - {label: "Image de couverture", name: "cover_image", widget: "image"}
           - label: "Partenaires"
             name: "partenaires"
@@ -71,7 +71,29 @@ collections:
               - {label: Image, name: image, widget: image}
               - {label: Nom, name: title, widget: string}
               - {label: Description, name: desc, widget: text}
-              
+
+      - name: "points-de-vente"
+        file: "points-de-vente.md"
+        label: "Éditer la page des Points de Vente"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "produits"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/produits" }
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Slogan", name: "slogan", widget: "string", required: false}
+          - {label: "Image de couverture", name: "cover_image", widget: "image"}
+          - label: "Points de vente"
+            name: "Locations"
+            widget: "list"
+            fields:
+              - {label: Nom, name: title, widget: string}
+              - {label: Addresse (Ligne 1), name: address_1, widget: string}
+              - {label: Addresse (Ligne 2), name: address_2, widget: string}
+              - {label: Lien vers site, name: url, widget: string}
+              - {label: Texte pour lien vers site, name: url_text, widget: string}
+              - {label: Latitude, name: lat, widget: string}
+              - {label: Longitude, name: long, widget: string}
+
   - name: "settings"
     label: "Paramètres du site"
     delete: false # Prevent users from deleting documents in this collection
