@@ -15,7 +15,7 @@ square:
       d'agriculteurs biologiques et fournisseurs du Québec.
     image: /img/kombucha.jpg
     link: /produits
-    link_desc: Voir nos produits
+    link_desc: Découvrir nos produits
     name: Notre mission
   - desc: >-
       Nos produits sont actuellement disponibles en fût libre service en vrac
@@ -43,7 +43,7 @@ square:
       par nous ainsi que pour connaître l’actualité de l’industrie du kombucha.
     image: /img/recettes-articles.jpg
     link: /publications
-    link_desc: Voir nos publications
+    link_desc: Consulter nos publications
     name: Publications
 ---
 
