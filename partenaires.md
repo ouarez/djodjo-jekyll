@@ -3,9 +3,8 @@ layout: partenaires
 title: Partenaires régionaux
 permalink: /partenaires-locaux
 description: >-
-  Djodjo Kombucha veut participer au développement de l’économie régionale en
-  faisant affaire avec des fournisseurs, agriculteurs et commerces québécois.
-  Vivement l’économie circulaire!
+  Djodjo Kombucha s'efforce de participer au développement de l’économie
+  régionale. Vivement l’économie circulaire!
 slogan: 'fournisseurs, agriculteurs et commerces québécois.'
 cover_image: /img/fournisseurs.jpg
 partenaires:
