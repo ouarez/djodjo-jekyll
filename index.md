@@ -30,9 +30,9 @@ square:
     name: Points de vente
   - desc: >-
       Nous offrons principalement des saveurs à base d'ingrédients biologiques
-      cultivés au Canada afin de favoriser les producteurs locaux, protéger
-      l'environnement et faire découvrir de nouveaux fruits et herbes
-      aromatiques nordiques aux consommateurs.
+      cultivés au Canada afin de favoriser l'économie circulaire, protéger
+      l'environnement et faire découvrir de nouveaux produits agricoles
+      nordiques aux consommateurs.
     image: /img/fournisseurs.jpg
     link: /partenaires-locaux
     link_desc: En savoir plus sur nos partenaires
