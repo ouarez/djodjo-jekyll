@@ -17,9 +17,12 @@ square:
     link_desc: Voir nos produits
     name: Notre mission
   - desc: >-
-      Nos produits sont présentement disponibles en vrac à 5 points de ventes
-      (Sherbrooke, Laval, Longueuil et Montréal). Notre kombucha est distributée
-      en fût afin de favoriser la réutilisation et d'offrir un prix compétitif.
+      Nos produits sont actuellement disponibles en fût libre service en vrac
+      dans 3 points de ventes à Sherbrooke et bientôt en bouteille de 350 et
+      500ml dans une multitude de cafés, pubs et restaurants. Nous misons
+      principalement sur le vrac afin de favoriser la réutilisation des
+      bouteilles et pour rendre notre kombucha accessible à un prix très
+      abordable
     image: /img/points-de-vente.jpg
     link: /points-de-vente
     link_desc: Voir nos points de vente
@@ -32,14 +35,14 @@ square:
     image: /img/fournisseurs.jpg
     link: /partenaires-locaux
     link_desc: En savoir plus sur nos partenaires
-    name: Partenaires locaux
+    name: Partenaires régionaux
   - desc: >-
-      Nous publions régulièrement des articles et des recettes qui expliquent
-      nos méthodes et notre savoir-faire. Partager nos connaissances permettra
-      d'inspirer celui ou celle qui voudra créer sa propre Kombucha.
+      Vous êtes invités à consulter cette page pour être au fait des derniers
+      développement de l’entreprise et découvrir des recettes ainsi que
+      l’actualité de l’industrie du kombucha
     image: /img/recettes-articles.jpg
     link: /publications
     link_desc: Voir nos publications
-    name: Recettes et articles
+    name: Publications
 ---
 
