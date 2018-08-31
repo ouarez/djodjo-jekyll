@@ -40,7 +40,7 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, jus de citron\*, sucre doré\*, jus de
+      culture de kombucha\*\*, eau, sucre doré\*, jus de citron\*, jus de
       gingembre\*, thés (vert\*, noir*).
 
 
@@ -50,14 +50,14 @@ produits:
       \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
       (chondrus crispus)
     title: Gingembre et citron
-  - bio: true
+  - bio: false
     desc: >-
       Un kombucha à saveur sauvage bien de chez-nous. De légères notes de sapin,
       d’épinette, de cèdre et de genévrier chatouillent nos cellules gustatives
       et olfactives. C’est une boisson complexe, mais douce, qui vous apaisera
       comme une promenade en forêt. Il peut aussi servir d’excellent tonique
       pour le gin.
-    ecocert: true
+    ecocert: false
     image: /img/fraicheur-forestiere.jpg
     ingredients: >-
       **INGRÉDIENTS**
@@ -88,7 +88,7 @@ produits:
 
 
       culture de kombucha\*\*, eau, jus de fraise\*, sucre doré\*, jus de
-      gingembre*, saveur naturelle de pêche, houblons (Belma, Huell Melon).
+      gingembre\*, tisane\* (rooibos à la pêche), houblons (Belma, Huell Melon).
 
 
       \*biologique
@@ -190,3 +190,4 @@ produits:
       (chondrus crispus)
     title: Agrumes houblonnés
 ---
+
