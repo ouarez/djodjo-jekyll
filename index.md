@@ -10,8 +10,9 @@ square:
   - desc: >-
       Rendre accessible à la population un produit écoresponsable et éthique en
       offrant une alternative santé tout aussi festive et savoureuse que les
-      boissons gazeuses ou alcoolisés en plus d'encourager les agriculteurs
-      biologiques locaux.
+      boissons gazeuses ou alcoolisés. Nous souhaitons aussi être un acteur dans
+      le développement durable de la région en nous approvisionnant auprès
+      d'agriculteurs biologiques et fournisseurs du Québec.
     image: /img/kombucha.jpg
     link: /produits
     link_desc: Voir nos produits
