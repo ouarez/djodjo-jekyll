@@ -38,9 +38,9 @@ square:
     link_desc: En savoir plus sur nos partenaires
     name: Partenaires régionaux
   - desc: >-
-      Vous êtes invités à consulter cette page pour être au fait des derniers
-      développement de l’entreprise et découvrir des recettes ainsi que
-      l’actualité de l’industrie du kombucha
+      Vous êtes invités à consulter cette page pour vous informer sur les
+      derniers développement de l’entreprise, découvrir des recettes élaborées
+      par nous ainsi que pour connaître l’actualité de l’industrie du kombucha.
     image: /img/recettes-articles.jpg
     link: /publications
     link_desc: Voir nos publications
