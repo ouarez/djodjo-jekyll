@@ -18,11 +18,11 @@ square:
     name: Notre mission
   - desc: >-
       Nos produits sont actuellement disponibles en fût libre service en vrac
-      dans 3 points de ventes à Sherbrooke et bientôt en bouteille de 350 et
-      500ml dans une multitude de cafés, pubs et restaurants. Nous misons
-      principalement sur le vrac afin de favoriser la réutilisation des
-      bouteilles et pour rendre notre kombucha accessible à un prix très
-      abordable
+      dans 3 points de ventes à Sherbrooke. Bientôt nous offrirons notre
+      kombucha en bouteilles de 350ml et 500ml dans une multitude de cafés, pubs
+      et restaurants. Nous misons principalement sur le vrac afin de favoriser
+      la réutilisation des bouteilles et pour rendre notre kombucha accessible à
+      un prix très abordable.
     image: /img/points-de-vente.jpg
     link: /points-de-vente
     link_desc: Voir nos points de vente
