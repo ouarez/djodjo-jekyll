@@ -142,16 +142,4 @@ partenaires:
     image: /img/uni-d.jpg
     title: Uni-D (Estrie)
 ---
-Test
 
-
-
-1
-
-2
-
-
-
-3
-
-4
