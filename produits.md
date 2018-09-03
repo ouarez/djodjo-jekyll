@@ -6,7 +6,7 @@ description: Production et distribution de kombucha biologique en Estrie.
 slogan: 8 saveurs originales de kombucha
 cover_image: /img/kombucha-glass.jpg
 produits:
-  - bio: true
+  - bio: false
     desc: >-
       Ce kombucha festif aux saveurs fruitées et rafraichissantes de petits
       fruits rouges en fera rougir les cocktails les plus raffinés. La camerise
