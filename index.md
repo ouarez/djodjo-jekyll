@@ -13,7 +13,7 @@ square:
       boissons gazeuses ou alcoolisées. Nous souhaitons aussi être un acteur
       dans le développement durable de la région en nous approvisionnant auprès
       d'agriculteurs biologiques et fournisseurs du Québec.
-    image: /img/kombucha.jpg
+    image: /img/recettes-articles.jpg
     link: /produits
     link_desc: Découvrir nos produits
     name: Notre mission
@@ -33,7 +33,7 @@ square:
       cultivés au Canada afin de favoriser l'économie circulaire, protéger
       l'environnement et faire découvrir de nouveaux produits agricoles
       nordiques aux consommateurs.
-    image: /img/fournisseurs.jpg
+    image: /img/berry-farm.jpg
     link: /partenaires-locaux
     link_desc: En savoir plus sur nos partenaires
     name: Partenaires régionaux
@@ -41,7 +41,7 @@ square:
       Vous êtes invités à consulter cette page pour vous informer sur les
       derniers développement de l’entreprise, découvrir des recettes élaborées
       par nous ainsi que pour connaître l’actualité de l’industrie du kombucha.
-    image: /img/recettes-articles.jpg
+    image: /img/kombucha-cover.jpg
     link: /publications
     link_desc: Consulter nos publications
     name: Publications
