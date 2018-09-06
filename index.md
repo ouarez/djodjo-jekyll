@@ -12,7 +12,7 @@ square:
       offrant une alternative santé tout aussi festive et savoureuse que les
       boissons gazeuses ou alcoolisées. Nous souhaitons aussi être un acteur
       dans le développement durable de la région en nous approvisionnant auprès
-      d'agriculteurs biologiques et fournisseurs du Québec.
+      d'agriculteurs biologiques et fournisseurs des Cantons de l'Est.
     image: /img/recettes-articles.jpg
     link: /produits
     link_desc: Découvrir nos produits
