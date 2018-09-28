@@ -10,8 +10,8 @@ produits:
     desc: >-
       Ce kombucha festif aux saveurs fruitées et rafraichissantes de petits
       fruits rouges en fera rougir les cocktails les plus raffinés. La camerise
-      est un superfruit riche en antioxydant venant bonifier les bienfaits pour
-      la santé.
+      est un superfruit riche en antioxydant venant bonifier le caractère de ce
+      kombucha ainsi que ses bienfaits pour la santé.
     ecocert: true
     image: /img/framboise-camerise.jpg
     ingredients: >-
@@ -50,14 +50,14 @@ produits:
       \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
       (chondrus crispus)
     title: Gingembre et citron
-  - bio: false
+  - bio: true
     desc: >-
       Un kombucha à saveur sauvage bien de chez-nous. De légères notes de sapin,
       d’épinette, de cèdre et de genévrier chatouillent nos cellules gustatives
       et olfactives. C’est une boisson complexe, mais douce, qui vous apaisera
       comme une promenade en forêt. Il peut aussi servir d’excellent tonique
       pour le gin.
-    ecocert: false
+    ecocert: true
     image: /img/fraicheur-forestiere.jpg
     ingredients: >-
       **INGRÉDIENTS**
@@ -144,13 +144,11 @@ produits:
     title: 'Pomme, carotte et curcuma'
   - bio: true
     desc: >-
-      Un clin d’œil aux amateurs de bière houblonnée à froid et à tous ceux qui
-      sont attirés par une explosion florale de fruits de la passion et mangue.
-      Cette saveur est élaborée à partir d’une sélection de houblons reconnus
-      pour leurs arômes de fruits tropicaux. Ce kombucha au goût innovant et de
-      faible amertume surprendra même les amateurs
-
-      avisés de kombucha.
+      Un clin d’œil aux amateurs de bière houblonnée à froid ainsi qu'à tous
+      ceux et celles attirés par une explosion florale de fruits de la passion
+      et mangue. Cette saveur est élaborée à partir d’une sélection de houblons
+      caractérisés pour leurs arômes de fruits tropicaux. Ce kombucha au goût
+      innovant et de faible amertume surprendra même les amateurs avisés.
     ecocert: true
     image: /img/houblons-passion-tropicale.jpg
     ingredients: >-
