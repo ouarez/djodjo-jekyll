@@ -100,11 +100,10 @@ produits:
   - bio: true
     desc: >-
       L’acidité de la cerise griotte combinée aux goûts herbacé et fruité de
-      fleur de houblons s’allient pour donner une boisson parfaitement
+      fleurs de houblon s’allient pour donner une boisson parfaitement
       équilibrée et se prêtant à toute occasion. Des variétés de houblon au goût
-      de baies sauvages ont été spécialement sélectionnées. Ce kombucha saura
-      ravir même les nouvellement initiés de par sa douceur et ses arômes
-      floraux.
+      de baies sauvages et vin rouge ont été spécialement sélectionnées pour
+      ravir même les nouvellement initiés au kombucha.
     ecocert: true
     image: /img/cerise-et-houblon.jpg
     ingredients: >-
