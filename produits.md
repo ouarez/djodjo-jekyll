@@ -77,10 +77,10 @@ produits:
   - bio: true
     desc: >-
       Le breuvage idéal pour se désaltérer l’été ou pour s’imaginer prendre un
-      bain de soleil sur une plage! Cette combinaison de fruits sucrés,
-      légèrement épicée au gingembre avec des notes de melons, stimulera vos
-      papilles tout en vous procurant une sensation de bien-être. Il saura
-      ensoleiller votre quotidien durant toute l’année.
+      bain de soleil sur une plage! Cette combinaison de fruits sucrés
+      légèrement épicée au gingembre stimulera vos papilles tout en vous
+      procurant une sensation de bien-être. Il saura ensoleiller votre quotidien
+      durant toute l’année.
     ecocert: true
     image: /img/fraise-peche.jpg
     ingredients: >-
@@ -96,14 +96,14 @@ produits:
 
       \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
       (chondrus crispus)
-    title: 'Fraise, pêche et gingembre'
+    title: 'Fraise, melons et gingembre'
   - bio: true
     desc: >-
-      L’acidité de la cerise griotte combinée aux goûts herbacé et fruité de
-      fleurs de houblon s’allient pour donner une boisson parfaitement
-      équilibrée et se prêtant à toute occasion. Des variétés de houblon au goût
-      de baies sauvages et vin rouge ont été spécialement sélectionnées pour
-      ravir même les nouvellement initiés au kombucha.
+      L’acidité de la cerise griotte combinée aux goûts herbacé du houblon
+      s’allient pour donner une boisson parfaitement équilibrée et se prêtant à
+      toute occasion. Des variétés de houblon fruités ayant même un goût de vin
+      rouge ont été spécialement sélectionnées pour ravir même les nouvellement
+      initiés au kombucha.
     ecocert: true
     image: /img/cerise-et-houblon.jpg
     ingredients: >-
@@ -119,7 +119,7 @@ produits:
 
       \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
       (chondrus crispus)
-    title: Cerise et fleurs de houblon
+    title: Cerise et houblons
   - bio: true
     desc: >-
       «Une pomme par jour éloigne le docteur pour toujours» dit le dicton, mais
