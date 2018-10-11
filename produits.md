@@ -30,6 +30,29 @@ produits:
     title: Framboise et camerise
   - bio: true
     desc: >-
+      Un clin d’œil aux amateurs de bière houblonnée à froid ainsi qu'à tous
+      ceux et celles attirés par une explosion florale de fruits de la passion
+      et mangue. Cette saveur est élaborée à partir d’une sélection de houblons
+      caractérisés par leurs arômes de fruits tropicaux. Ce kombucha au goût
+      innovant et de faible amertume surprendra même les amateurs avisés.
+    ecocert: true
+    image: /img/houblons-passion-tropicale.jpg
+    ingredients: >-
+      **INGRÉDIENTS**
+
+
+      culture de kombucha\*\*, eau, sucre doré*, houblons (El Dorado, Galaxy,
+      Azacca, Amarillo).
+
+
+      \*biologique
+
+
+      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
+      (chondrus crispus)
+    title: Houblons passion tropicale
+  - bio: true
+    desc: >-
       La réputation du classique kombucha au gingembre n’est plus à faire. Nous
       la réinventons avec l’utilisation de jus de gingembre pressé à froid et
       l’ajout d’un peu de citron. C’est une concoction simple, zen, vivifiante
@@ -76,29 +99,6 @@ produits:
     title: Fraîcheur forestière
   - bio: true
     desc: >-
-      Le breuvage idéal pour se désaltérer l’été ou pour s’imaginer prendre un
-      bain de soleil sur une plage! Cette combinaison de fruits sucrés
-      légèrement épicée au gingembre stimulera vos papilles tout en vous
-      procurant une sensation de bien-être. Il saura ensoleiller votre quotidien
-      durant toute l’année.
-    ecocert: true
-    image: /img/fraise-peche.jpg
-    ingredients: >-
-      **INGRÉDIENTS**
-
-
-      culture de kombucha\*\*, eau, jus de fraise\*, sucre doré\*, jus de
-      gingembre*, houblons (Belma, Huell Melon).
-
-
-      \*biologique
-
-
-      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
-      (chondrus crispus)
-    title: 'Fraise, melons et gingembre'
-  - bio: true
-    desc: >-
       L’acidité de la cerise griotte combinée aux goûts herbacé du houblon
       s’allient pour donner une boisson parfaitement équilibrée et se prêtant à
       toute occasion. Des variétés de houblon fruités ayant même un goût de vin
@@ -122,6 +122,29 @@ produits:
     title: Cerise et houblons
   - bio: true
     desc: >-
+      Le breuvage idéal pour se désaltérer l’été ou pour s’imaginer prendre un
+      bain de soleil sur une plage! Cette combinaison de fruits sucrés
+      légèrement épicée au gingembre stimulera vos papilles tout en vous
+      procurant une sensation de bien-être. Il saura ensoleiller votre quotidien
+      durant toute l’année.
+    ecocert: true
+    image: /img/fraise-peche.jpg
+    ingredients: >-
+      **INGRÉDIENTS**
+
+
+      culture de kombucha\*\*, eau, jus de fraise\*, sucre doré\*, jus de
+      gingembre*, houblons (Belma, Huell Melon).
+
+
+      \*biologique
+
+
+      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
+      (chondrus crispus)
+    title: 'Fraise, melons et gingembre'
+  - bio: true
+    desc: >-
       «Une pomme par jour éloigne le docteur pour toujours» dit le dicton, mais
       imaginez si on y ajoute des alliés reconnus pour la santé tels le jus de
       carotte, le jus de racine de curcuma et qu’on fermente le tout en kombucha
@@ -142,29 +165,6 @@ produits:
       \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
       (chondrus crispus)
     title: 'Pomme, carotte et curcuma'
-  - bio: true
-    desc: >-
-      Un clin d’œil aux amateurs de bière houblonnée à froid ainsi qu'à tous
-      ceux et celles attirés par une explosion florale de fruits de la passion
-      et mangue. Cette saveur est élaborée à partir d’une sélection de houblons
-      caractérisés par leurs arômes de fruits tropicaux. Ce kombucha au goût
-      innovant et de faible amertume surprendra même les amateurs avisés.
-    ecocert: true
-    image: /img/houblons-passion-tropicale.jpg
-    ingredients: >-
-      **INGRÉDIENTS**
-
-
-      culture de kombucha\*\*, eau, sucre doré*, houblons (El Dorado, Galaxy,
-      Azacca, Amarillo).
-
-
-      \*biologique
-
-
-      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
-      (chondrus crispus)
-    title: Houblons passion tropicale
   - bio: true
     desc: >-
       Une variante du kombucha «Houblons passion tropicale», cette version mise
