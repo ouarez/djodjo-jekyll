@@ -18,14 +18,14 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, jus de framboise\*, sucre doré\*, jus de
-      camerise\*, houblons (Glacier, Bramling Cross).
+      culture de kombucha\*\*, eau, jus de framboise\*, jus de camerise\*, sucre
+      doré\*, houblons (Glacier\*, Bramling Cross).
 
 
-      *biologique
+      \*biologique
 
 
-      **contient de l’orge maltée biologique et de l’extrait d’algue rouge
+      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
       (chondrus crispus)
     title: Framboise et camerise
   - bio: true
@@ -88,7 +88,7 @@ produits:
 
 
       culture de kombucha\*\*, eau, jus de fraise\*, sucre doré\*, jus de
-      gingembre\*, tisane\* (rooibos à la pêche), houblons (Belma, Huell Melon).
+      gingembre*, houblons (Belma, Huell Melon).
 
 
       \*biologique
@@ -110,8 +110,8 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, jus de cerise griotte\*, sucre doré\*,
-      houblons (Mosaic, Newport\*, Newport vert\*).
+      culture de kombucha\*\*, eau, jus de cerise\*, sucre doré\*, houblons
+      (Mosaic, Newport*).
 
 
       \*biologique
@@ -147,7 +147,7 @@ produits:
       Un clin d’œil aux amateurs de bière houblonnée à froid ainsi qu'à tous
       ceux et celles attirés par une explosion florale de fruits de la passion
       et mangue. Cette saveur est élaborée à partir d’une sélection de houblons
-      caractérisés pour leurs arômes de fruits tropicaux. Ce kombucha au goût
+      caractérisés par leurs arômes de fruits tropicaux. Ce kombucha au goût
       innovant et de faible amertume surprendra même les amateurs avisés.
     ecocert: true
     image: /img/houblons-passion-tropicale.jpg
@@ -177,7 +177,7 @@ produits:
 
 
       culture de kombucha\*\*, eau, sucre doré\*, houblons (Mandarina Bavaria,
-      Citra, Comet, Cascade\*, Cascade vert*).
+      Citra, Comet, Cascade\*).
 
 
       \*biologique
