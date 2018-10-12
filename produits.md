@@ -101,8 +101,8 @@ produits:
     desc: >-
       L’acidité de la cerise griotte combinée aux goûts herbacé du houblon
       s’allient pour donner une boisson parfaitement équilibrée et se prêtant à
-      toute occasion. Des variétés de houblon fruités ayant même un goût de vin
-      rouge ont été spécialement sélectionnées pour ravir même les nouvellement
+      toute occasion. Des variétés de houblon ayant un goût de vin rouge et de
+      fruits ont été spécialement sélectionnées pour ravir même les nouvellement
       initiés au kombucha.
     ecocert: true
     image: /img/cerise-et-houblon.jpg
