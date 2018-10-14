@@ -2,9 +2,16 @@
 
     <div class="container flex flex-wrap justify-around">
 
-      <a href="/" alt="Djodjo Kombucha" class="ml-auto mr-auto ml0-l mr0-l ">
-        <img id="logo" class="pr5-l pl3-l mb3 mb0-l" src="/img/djodjo-kombucha-logo.png" alt="Djodjo Kombucha"/>
-      </a>
+      <div class="w-100 w-20-l tc tl-l">
+        <a href="/" alt="Djodjo Kombucha">
+          <img id="logo" class="pr5-l pl3-l" src="/img/djodjo-kombucha-logo.png" alt="Djodjo Kombucha"/>
+        </a>
+      </div>
+
+      <div class="nav-button dn-l">
+        <i id="burger-nav" class="fas fa-bars"></i>
+        <i id="cancel-nav" class="fas fa-times"></i>
+      </div>
 
       <nav class="main dn db-l tr mt4 pt1">
         {% for item in site.data.navigation.main_nav %}
@@ -12,7 +19,7 @@
         {% endfor %}
       </nav>
 
-      <nav class="mobile w-100 dn-l pv3 tc blue">
+      <nav class="mobile w-100 dn pv5 tc blue">
         {% for item in site.data.navigation.main_nav %}
           <a class="db pv3 {% if item.url == page.url %}active{% endif %}" href="{{item.url}}">{{item.title}}</a>
         {% endfor %}

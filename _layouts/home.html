@@ -2,47 +2,16 @@
 layout: default
 ---
 
-<header class="w-100 vh-100 vh-75-l cover" style="background-image:url('/img/kombucha-cover.jpg');">
-  <div class="shadow vh-100 vh-75-l">
-
-    <div class="hero container flex flex-wrap pt3 ph3 ph4-l justify-around">
-
-      <img id="logo-home" class="pr5-l ml-auto mr-auto ml0-l mr0-l" src="/img/djodjo-white.png" alt="Djodjo Kombucha"/>
-
-      <nav class="main dn db-l tr mt3 pt1">
-        {% for item in site.data.navigation.main_nav %}
-        <a class="pr4 white {% if item.url == page.url %}active{% endif %}" href="{{item.url}}">{{item.title}}</a>
-        {% endfor %}
-      </nav>
-
-      <nav class="mobile w-100 dn-l pv3 tc">
-        {% for item in site.data.navigation.main_nav %}
-          <a class="db pv3 {% if item.url == page.url %}active{% endif %}" href="{{item.url}}">{{item.title}}</a>
-        {% endfor %}
-      </nav>
-
-      <div class="w-100 white pv3 pv5-l tc mt3 mt5-l">
-        <h1 class="f2 f1-l alt-font ttu b">{{page.slogan1}}</h1>
-        <a class="white link" href="{{page.cover_link}}" alt="{{page.slogan2}}">
-          <h2 class="f3 f2-l dib alt-font ttu tracked">
-            <i class="fas fa-chevron-circle-right mr3 dib"></i>{{page.slogan2}}
-          </h2>
-        </a>
-      </div>
-
-    </div>
-
-  </div>
-</header>
+{% include header.html %}
 
 <main class="w-100 flex flex-wrap ph3 pt4">
 
   {% for item in page.square %}
 
     <div class="w-100 w-50-l">
-      <div class="square cover mh3 mb4" style="background-image:url('{{item.image}}')">
+      <div class="square cover mh0 mh3-l mb3 mb4-l" style="background-image:url('{{item.image}}')">
         <div class="w-100 shadow dt">
-          <div class="white tc dtc v-mid ph3 ph5-l">
+          <div class="white tc f5 dtc v-mid ph4 pv4">
             <h3 class="ttu alt-font f2">{{item.name}}</h3>
             <p>{{item.desc}}</p>
             <a href="{{item.link}}" alt="{{item.link_desc}}">

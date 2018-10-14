@@ -99,8 +99,8 @@ body {
    .shadow {
      background:
          linear-gradient(
-           rgba(0, 0, 0, 0.6),
-           rgba(0, 0, 0, 0.6)
+           rgba(0, 0, 0, 0.7),
+           rgba(0, 0, 0, 0.7)
          );
    }
 
@@ -133,7 +133,19 @@ header {
     a.active {text-decoration:underline;color:#333;}
   }
 
+  .nav-button {
+    position: absolute;
+    right:24px;
+    top:30px;
+    cursor:pointer;
+    i {font-size:2em;}
+  }
+
   nav.mobile {
+    position:absolute;
+    top:93px;
+    height:90vh;
+    z-index:999;
     a {
       color:white;
       font-size:18px;
@@ -141,7 +153,8 @@ header {
       font-weight:bold;
       font-family:$alternate-font;
       text-transform: uppercase;
-        }
+      &:hover {text-decoration:underline;color:white;}
+    }
     a.active {text-decoration:underline;color:white;}
   }
 
@@ -155,12 +168,6 @@ header {
 
 main {
   font-size:16px;
-
-  .square {
-    height:460px;
-
-    .shadow {height:460px;}
-  } // end square
 
   .product {
     .dark-red {color:#790604 }

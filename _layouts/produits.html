@@ -15,7 +15,7 @@ layout: default
       <img class="br-100" src="{{produit.image}}" alt="{{produit.title}}"/>
       <div class="title tl">
         <h4 class=" mt4 serif b dark-red">{{produit.title}}</h4>
-        <span class="ttu f6 gray">Biologique</span>
+        {% if produit.bio %}<span class="ttu f6 gray">Biologique</span>{% endif %}
       </div>
       <div class="description tl">
         <p>{{produit.desc}}</p>
