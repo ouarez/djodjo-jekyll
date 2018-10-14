@@ -128,7 +128,7 @@ produits:
       procurant une sensation de bien-être. Il saura ensoleiller votre quotidien
       durant toute l’année.
     ecocert: true
-    image: /img/fraise-peche.jpg
+    image: /img/fraise-melon.jpg
     ingredients: >-
       **INGRÉDIENTS**
 
@@ -187,4 +187,3 @@ produits:
       (chondrus crispus)
     title: Agrumes houblonnés
 ---
-

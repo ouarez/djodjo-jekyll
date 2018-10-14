@@ -99,8 +99,8 @@ body {
    .shadow {
      background:
          linear-gradient(
-           rgba(0, 0, 0, 0.7),
-           rgba(0, 0, 0, 0.7)
+           rgba(0, 0, 0, 0.6),
+           rgba(0, 0, 0, 0.6)
          );
    }
 
@@ -160,8 +160,21 @@ header {
 
 } // end header
 
-.hero {
+.cover-site {
+  height:600px;
   h1,h2{text-shadow: 2px 2px #000;}
+  h1 {font-size:4em;}
+  h2 {font-size:2.5em;}
+  i {font-size:2em;}
+  a {text-decoration:none;}
+  h2:hover {text-decoration:underline;}
+}
+
+.cover-mobile {
+  min-height:350px;
+  h1,h2{text-shadow: 2px 2px #000;}
+  a {text-decoration:none;}
+  h2:hover {text-decoration:underline;}
 }
 
 // main body
