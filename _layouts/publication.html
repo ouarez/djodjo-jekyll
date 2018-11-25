@@ -1,0 +1,46 @@
+---
+layout: default
+---
+{% include header.html %}
+
+<main class="container pv3 ph3 pv4-l ph5-l flex flex-wrap">
+
+  <div class="w-100 w-70-l publication flex flex-wrap pr4">
+    <div class="w-100">
+      <h2 class="ttu tracked f3 tc mv3">{{page.post_title}}</h2>
+      <hr/>
+      <span class="db f6 gray i tc mv3">Publié le 12/03/2018 {{page.post_date}}</span>
+      <img class="mv3" src="{{page.recette_image}}" alt="{{page.post_title}}"/>
+    </div>
+    <div class="w-100 w-30-l mv4 pv3">
+      <img src="{{page.post_image}}" alt="{{page.post_title}}"/>
+    </div>
+    <div class="w-100 w-70-l mv4 pl4 f6">
+      {{content}}
+    </div>
+  </div>
+
+  <div class="w-100 w-30-l ph3 tc ba b--light-gray publication-thumb">
+    <h2 class="ttu tracked f3">Autres articles</h2>
+    <hr/>
+  {% for item in site.publications %}
+
+    {% if item.post_title != page.post_title %}
+      <div class="w-100 mv3 pa3">
+        <div class="post-image cover w-100" style="background-image:url('{{item.post_image}}')">
+          <a class="link" href="{{item.url}}" alt="{{item.title}}"></a>
+        </div>
+        <div class="w-100 tc mv3">
+          <a class="link" href="{{item.url}}" alt="{{item.title}}">
+            <h3 class="ttu tracked dark-gray f5 mv3">{{item.post_title}}</h3>
+          </a>
+        </div>
+      </div>
+    {% endif %}
+
+  {% endfor %}
+  </div>
+
+</main>
+
+{% include footer.html %}

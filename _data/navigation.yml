@@ -2,10 +2,10 @@ main_nav:
   - title: Produits
     url: /produits
   - title: Points de vente
-    url: points-de-vente
+    url: /points-de-vente
   - title: Partenaires régionaux
-    url: partenaires-locaux
+    url: /partenaires-locaux
   - title: Publications
-    url: publications
+    url: /publications
   - title: Contact
-    url: contact
+    url: /contact

@@ -17,9 +17,7 @@ data_dir: ./_data
 
 # Collections
 collections:
-  formations:
-    output: true
-  materiel:
+  publications:
     output: true
 
 # SASS

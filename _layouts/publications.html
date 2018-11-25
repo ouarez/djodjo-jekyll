@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{% include header.html %}
+
+<main class="container pv3 ph3 pv4-l ph5-l flex flex-wrap">
+
+  {{content}}
+
+  {% for item in site.publications %}
+
+    <div class="w-100 w-33-l mv3 publications pa3">
+      <div class="post-image cover w-100" style="background-image:url('{{item.post_image}}')">
+        <a class="link" href="{{item.url}}" alt="{{item.title}}"></a>
+      </div>
+      <div class="w-100 tc mv3">
+        <a class="link" href="{{item.url}}" alt="{{item.title}}">
+          <h3 class="ttu tracked dark-gray f5 mv3">{{item.post_title}}</h3>
+        </a>
+        <hr/>
+        <p class="f6">{{item.description}}</p>
+        <span class="db gray f6">{{item.post_date}}</span>
+      </div>
+    </div>
+
+  {% endfor %}
+
+</main>
+
+{% include footer.html %}
