@@ -20,5 +20,3 @@ fields:
   label: Description
   name: description
   description: Une phrase ou deux qui résume l'article (résumé pour résultats Google)
-pages:
-- _publications/test.md
