@@ -19,14 +19,11 @@ produits:
 
 
       culture de kombucha\*\*, eau, jus de framboise\*, jus de camerise\*, sucre
-      doré\*, houblons (Glacier\*, Bramling Cross).
+      doré\*, houblon*, houblon.
 
 
       \*biologique
 
-
-      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
-      (chondrus crispus)
     title: Framboise et camerise
   - bio: true
     desc: >-
@@ -41,15 +38,11 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, sucre doré*, houblons (El Dorado, Galaxy,
-      Azacca, Amarillo).
+      culture de kombucha\*\*, eau, sucre doré*, houblons.
 
 
       \*biologique
 
-
-      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
-      (chondrus crispus)
     title: Houblons passion tropicale
   - bio: true
     desc: >-
@@ -64,14 +57,11 @@ produits:
 
 
       culture de kombucha\*\*, eau, sucre doré\*, jus de citron\*, jus de
-      gingembre\*, thés (vert\*, noir*).
+      gingembre\*, thé vert\*, thé noir\*.
 
 
       \*biologique
 
-
-      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
-      (chondrus crispus)
     title: Gingembre et citron
   - bio: true
     desc: >-
@@ -86,16 +76,11 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, sucre doré\*, tisane forestière (pousse de
-      sapin baumier, écorce de cèdre thuya, pousse d’épinette rouge, baie de
-      genièvre), houblons (Chinook\*, Nugget*).
+      culture de kombucha\*\*, eau, sucre doré\*, tisane forestière, houblons\*.
 
 
       \*biologique
 
-
-      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
-      (chondrus crispus)
     title: Fraîcheur forestière
   - bio: true
     desc: >-
@@ -110,39 +95,27 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, jus de cerise\*, sucre doré\*, houblons
-      (Mosaic, Newport*).
+      culture de kombucha\*\*, eau, jus de cerise griotte\*, sucre doré\*, houblon\*, houblon.
 
 
       \*biologique
 
-
-      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
-      (chondrus crispus)
     title: Cerise et houblons
   - bio: true
     desc: >-
-      Le breuvage idéal pour se désaltérer l’été ou pour s’imaginer prendre un
-      bain de soleil sur une plage! Cette combinaison de fruits sucrés
-      légèrement épicée au gingembre stimulera vos papilles tout en vous
-      procurant une sensation de bien-être. Il saura ensoleiller votre quotidien
-      durant toute l’année.
+      Le breuvage idéal pour se désaltérer l’été ou pour s’imaginer prendre un bain de soleil à la plage! Cette combinaison de fruits sucrés aux notes florales stimulera vos papilles tout en vous procurant une sensation de bien-être. Il saura ensoleiller votre quotidien durant toute l’année.
     ecocert: true
     image: /img/fraise-melon.jpg
     ingredients: >-
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, jus de fraise\*, sucre doré\*, jus de
-      gingembre*, houblons (Belma, Huell Melon).
+      culture de kombucha\*\*, eau, jus de fraise\*, sucre doré\*, houblons.
 
 
       \*biologique
 
-
-      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
-      (chondrus crispus)
-    title: 'Fraise, melons et gingembre'
+    title: 'Fraise et melons'
   - bio: true
     desc: >-
       «Une pomme par jour éloigne le docteur pour toujours» dit le dicton, mais
@@ -161,9 +134,6 @@ produits:
 
       \*biologique
 
-
-      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
-      (chondrus crispus)
     title: 'Pomme, carotte et curcuma'
   - bio: true
     desc: >-
@@ -176,14 +146,10 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, sucre doré\*, houblons (Mandarina Bavaria,
-      Citra, Comet, Cascade\*).
+      culture de kombucha\*\*, eau, sucre doré\*, houblon\*, houblons.
 
 
       \*biologique
 
-
-      \*\*contient de l’orge maltée biologique et de l’extrait d’algue rouge
-      (chondrus crispus)
     title: Agrumes houblonnés
 ---
