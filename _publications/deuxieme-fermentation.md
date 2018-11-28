@@ -8,7 +8,7 @@ post_image: /img/deuxieme-fermentation.jpg
 recette_image: /img/recette2.jpg
 description: Cette première recette décrit comment accomplir la première fermentation de kombucha, à l'aide du symbiote (aussi appelé scoby, mère ou champignon).
 ---
-Recette de première fermentation :
+Recette de deuxième fermentation :
 
 - Infuser 3gr de thé vert par litre d’eau bouillante
 - Refroidir et ajouter en culture de kombucha le même volume qu’en eau
