@@ -1,0 +1,22 @@
+---
+label: Publications
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Layout
+  name: layout
+  hidden: true
+  config:
+    required: true
+  default: publication
+- type: file
+  label: Image de couverture
+  name: post_image
+  description: L'image principale pour afficher la publication
+  config:
+    maxSize: '2'
+- type: textarea
+  label: Description
+  name: description
+  description: Une phrase ou deux qui résume l'article (résumé pour résultats Google)
