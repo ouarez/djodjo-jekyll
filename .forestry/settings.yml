@@ -9,6 +9,8 @@ sections:
   label: Publications
   create: documents
   match: "*"
+  templates:
+  - publications
 upload_dir: img
 public_path: "/img"
 front_matter_path: ''
