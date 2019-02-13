@@ -18,12 +18,11 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, jus de framboise\*, jus de camerise\*, sucre
-      doré\*, houblon*, houblon.
+      culture de kombucha\*, eau, jus de framboise\*, jus de camerise\*, sucre
+      doré\*, houblon Glacier*, houblon Bramling Cross.
 
 
       \*biologique
-
     title: Framboise et camerise
   - bio: true
     desc: >-
@@ -38,11 +37,11 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, sucre doré*, houblons.
+      culture de kombucha\*, eau, sucre doré\*, houblons (El Dorado, Galaxy,
+      Citra, Azacca).
 
 
       \*biologique
-
     title: Houblons passion tropicale
   - bio: true
     desc: >-
@@ -56,12 +55,11 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, sucre doré\*, jus de citron\*, jus de
+      culture de kombucha\*, eau, sucre doré\*, jus de citron\*, jus de
       gingembre\*, thé vert\*, thé noir\*.
 
 
       \*biologique
-
     title: Gingembre et citron
   - bio: true
     desc: >-
@@ -76,46 +74,51 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, sucre doré\*, tisane forestière, houblons\*.
+      culture de kombucha\*, eau, sucre doré\*, tisane forestière (sapin
+      beaumier, épinette rouge, cèdre thuya, baies de genièvre), houblons*
+      (Chinook, Nugget).
 
 
       \*biologique
-
     title: Fraîcheur forestière
   - bio: true
     desc: >-
       L’acidité de la cerise griotte combinée aux goûts herbacé du houblon
       s’allient pour donner une boisson parfaitement équilibrée et se prêtant à
-      toute occasion. Des variétés de houblon ayant un goût de vin rouge et de
-      fruits ont été spécialement sélectionnées pour ravir même les nouvellement
-      initiés au kombucha.
+      toute occasion. Des variétés de houblon ayant un goût de vin rouge,
+      balsamique, bleuet et gomme balloune ont été spécialement sélectionnées
+      pour ajouter de la complexité et ainsi ravir même les nouvellement initiés
+      au kombucha.
     ecocert: true
     image: /img/cerise-et-houblon.jpg
     ingredients: >-
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, jus de cerise griotte\*, sucre doré\*, houblon\*, houblon.
+      culture de kombucha\*, eau, jus de cerise griotte\*, sucre doré\*, houblon
+      Newport\*, houblon Mosaic.
 
 
       \*biologique
-
-    title: Cerise et houblons
+    title: Cerise griotte
   - bio: true
     desc: >-
-      Le breuvage idéal pour se désaltérer l’été ou pour s’imaginer prendre un bain de soleil à la plage! Cette combinaison de fruits sucrés aux notes florales stimulera vos papilles tout en vous procurant une sensation de bien-être. Il saura ensoleiller votre quotidien durant toute l’année.
+      Le breuvage idéal pour se désaltérer l’été ou pour s’imaginer prendre un
+      bain de soleil à la plage! Cette combinaison de fruits sucrés aux notes
+      florales stimulera vos papilles tout en vous procurant une sensation de
+      bien-être. Il saura ensoleiller votre quotidien durant toute l’année.
     ecocert: true
     image: /img/fraise-melon.jpg
     ingredients: >-
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, jus de fraise\*, sucre doré\*, houblons.
+      culture de kombucha\*, eau, jus de fraise\*, sucre doré*, houblons (Huell
+      Melon, Belma).
 
 
       \*biologique
-
-    title: 'Fraise et melons'
+    title: Fraise et melons
   - bio: true
     desc: >-
       «Une pomme par jour éloigne le docteur pour toujours» dit le dicton, mais
@@ -128,28 +131,29 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, jus de pomme\*, jus de carotte\*, sucre
-      doré\*, jus de curcuma et gingembre\*, rooibos*.
+      culture de kombucha\*, eau, jus de pomme\*, jus de carotte\*, sucre
+      doré\*, jus de curcuma et gingembre\*, rooibos\*.
 
 
       \*biologique
-
     title: 'Pomme, carotte et curcuma'
   - bio: true
     desc: >-
       Une variante du kombucha «Houblons passion tropicale», cette version mise
-      plutôt sur une gamme de houblons à saveur d’agrumes. Un tourbillon de
-      mandarine, pamplemousse, citron et lime vous illuminera de vivacité.
+      plutôt sur une gamme de houblons à saveur d’agrumes. Un tourbillon
+      d'arômes de mandarine, pamplemousse, orange avec des notes de pêche et
+      citronnelle vous illuminera de vivacité.
     ecocert: true
     image: /img/agrumes-houblonnés.jpg
     ingredients: >-
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*\*, eau, sucre doré\*, houblon\*, houblons.
+      culture de kombucha\*, eau, sucre doré\*, houblon Cascade*, houblons
+      (Mandarina Bavaria, Amarillo, Comet).
 
 
       \*biologique
-
     title: Agrumes houblonnés
 ---
+
