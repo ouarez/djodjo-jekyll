@@ -5,8 +5,7 @@ description: Production et distribution de kombucha biologique en Estrie.
 slogan1: L'effervescence de la vie
 slogan2: 8 saveurs originales
 cover_link: /produits
-cover_site: /img/banner-site.jpg
-cover_mobile: /img/banner-mobile.jpg
+cover_image: /img/banner-site.jpg
 square:
   - desc: >-
       Rendre accessible à la population un produit écoresponsable et éthique en
@@ -20,19 +19,17 @@ square:
     name: Notre mission
   - desc: >-
       Nos produits sont actuellement disponibles en fût libre service en vrac
-      dans 3 points de ventes à Sherbrooke. Bientôt nous offrirons notre
-      kombucha en bouteilles de 350ml et 500ml dans une multitude de cafés, pubs
-      et restaurants. Nous misons principalement sur le vrac afin de favoriser
-      la réutilisation des bouteilles et pour rendre notre kombucha accessible à
-      un prix très abordable.
+      dans 5 points de ventes en Estrie et un restaurant à Sherbrooke. Nous
+      misons sur le vrac afin d'être zéro déchet et pour rendre notre kombucha
+      accessible à un prix très abordable.
     image: /img/points-de-vente.jpg
     link: /points-de-vente
     link_desc: Voir nos points de vente
     name: Points de vente
   - desc: >-
-      Nous offrons principalement des saveurs à base d'ingrédients biologiques
-      cultivés au Canada afin de favoriser l'économie circulaire, protéger
-      l'environnement et faire découvrir de nouveaux produits agricoles
+      Nous offrons principalement des saveurs aromatisées à partir d'ingrédients
+      biologiques cultivés au Canada afin de favoriser l'économie circulaire,
+      protéger l'environnement et faire découvrir de nouveaux produits agricoles
       nordiques aux consommateurs.
     image: /img/berry-farm.jpg
     link: /partenaires-locaux
@@ -47,3 +44,4 @@ square:
     link_desc: Consulter nos publications
     name: Publications
 ---
+
