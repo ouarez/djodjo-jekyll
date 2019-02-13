@@ -40,5 +40,12 @@ locations:
     title: Épicerie santé Coop Alentour
     url: 'http://www.coopalentour.ca/'
     url_text: www.coopalentour.ca
+  - address_1: 35 Rue Belvédère N suite 10
+    address_2: 'Sherbrooke, QC J1H 4A7'
+    lat: '45.399285'
+    long: '-71.897298'
+    title: Antidote FoodLab
+    url: 'http://www.antidotefoodlab.com/'
+    url_text: www.antidotefoodlab.com
 ---
 
