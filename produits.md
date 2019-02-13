@@ -47,7 +47,7 @@ produits:
     desc: >-
       La réputation du classique kombucha au gingembre n’est plus à faire. Nous
       la réinventons avec l’utilisation de jus de gingembre pressé à froid et
-      l’ajout d’un peu de citron. C’est une concoction simple, zen, vivifiante
+      l’ajout d’un peu de citron. C’est une concoction simple, zen, énergisante
       et agréable en toute circonstance.
     ecocert: true
     image: /img/gingembre-citron.jpg
