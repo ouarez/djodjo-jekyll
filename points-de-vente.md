@@ -33,5 +33,12 @@ locations:
     title: Fraîcheur Urbaine
     url: 'https://fraicheururbaine.com/'
     url_text: www.fraicheururbaine.com
+  - address_1: 510 Rue Jean-Paul-Perrault
+    address_2: 'Sherbrooke, QC J1L 3A6'
+    lat: '45.405048'
+    long: '-71.956944'
+    title: Épicerie santé Coop Alentour
+    url: 'http://www.coopalentour.ca/'
+    url_text: www.coopalentour.ca
 ---
 
