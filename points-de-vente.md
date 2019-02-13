@@ -26,12 +26,5 @@ locations:
     title: Vertige Ferme Urbaine
     url: 'http://www.vertige.biz/'
     url_text: www.vertige.biz
-  - address_1: 1234 Chemin de La Vigne
-    address_2: 'Sherbrooke, QC J1J 2Z4'
-    lat: '44'
-    long: '-70'
-    title: Ferme du Test
-    url: 'http://www.vertige.biz/'
-    url_text: Site web
 ---
 
