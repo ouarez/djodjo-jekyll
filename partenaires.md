@@ -18,7 +18,7 @@ partenaires:
       Ce fut dans leur boutique que nous avons débuté la vente au détail. Merci
       à Ashley et David d’avoir reconnu le caractère unique de notre kombucha et
       d’avoir été les tout premiers à faire connaître nos produits aux
-      Sherbrookois.
+      Sherbrookois. Ils distribuent nos produits depuis décembre 2018.
     image: /img/vertige.png
     title: Vertige Ferme Urbaine (Estrie)
   - desc: >-
@@ -43,36 +43,20 @@ partenaires:
       réussir leur culture.
 
 
-      Nous utilisons certains de leurs produits dans nos recettes et nous
-      remercions Martin pour ses conseils nous ayant permis d’améliorer notre
-      procédé d’infusion du houblon.
+      Nous remercions Martin pour ses conseils nous ayant permis d’améliorer
+      notre procédé d’infusion du houblon pour le kombucha et continuons de
+      tester ses produits pour sortir de nouvelles saveurs houblonnées!
     image: /img/houblons-franklin.jpg
     title: Houblons Franklin (Montérégie)
-  - desc: >-
-      La Malterie Caux-Laflamme est une entreprise familiale spécialisée dans
-      les malts pâles ayant à cœur de créer une chaîne de valeur dans le but de
-      rapprocher les brasseurs des producteurs de grains.  De la production de
-      la matière première jusqu’au traitement du malt, en passant par le
-      trempage, la germination et le touraillage, le tout est fait au Québec
-      pour offrir un produit constant de qualité supérieure.
-
-
-      Chez Djodjo Kombucha, nous innovons en utilisant un peu d’orge maltée pâle
-      pour nourrir notre culture de kombucha et ainsi réduire notre utilisation
-      d’ingrédients importés tels le thé et le sucre. Moins d’ingrédients
-      importés = moins de gaz à effet de serre. Nous avons opté pour un malt
-      québécois produit par une famille passionnée d’offrir un produit de
-      qualité et portant aussi les valeurs de notre entreprise.
-    image: /img/caux-laflamme.jpg
-    title: Malterie Caux-Laflamme (Chaudière-Appalaches)
-  - desc: "Depuis 35 ans, le Versant Rouge, verger situé à Saint-Georges-de-Windsor, est une entreprise spécialisée dans la culture et la transformation de pommes, de fraises et autres fruits en confitures, gelées, beurres et jus.\tTous les produits sont transformés dans la ferme familiale du Versant Rouge.\n\nLe Versant Rouge agit comme fournisseur et sous-traitant de jus pour Djodjo Kombucha. Nous sommes fiers de faire affaire avec une entreprise familiale de la région ayant converti ses opérations au biologique en 2011. Toujours un plaisir de collaborer avec le sympathique Donald."
+  - desc: "Depuis 35 ans, le Versant Rouge, verger situé à Saint-Georges-de-Windsor, est une entreprise spécialisée dans la culture et la transformation de pommes, de fraises et autres fruits en confitures, gelées, beurres et jus.\tTous les produits sont transformés dans la ferme familiale du Versant Rouge.\n\nLe Versant Rouge agit comme fournisseur et sous-traitant de jus bio pressé à froid pour Djodjo Kombucha. Nous sommes fiers de faire affaire avec une entreprise familiale de la région ayant converti ses opérations au biologique en 2011. Toujours un plaisir de collaborer avec le sympathique Donald."
     image: /img/versant-rouge.jpg
     title: Le Versant Rouge (Estrie)
   - desc: >-
       Passionnés par la nature, la santé et le bien-être, Camerises et Cerises
       ont planté plus de 500 cerisiers et 2000 camerisiers. Ils offrent une
       multitude de produits santé de qualité et en harmonie avec la nature. Ils
-      sont certifiés biologiques et nous fournissent en camerise.
+      sont certifiés biologiques et nous fournissent en camerise et cerise
+      griotte.
     image: /img/camerises-et-cerises.png
     title: Camerises et Cerises (Estrie)
   - desc: >-
@@ -93,10 +77,12 @@ partenaires:
       meilleur distributeur de cela au Québec.
 
 
-      Pour ajouter un goût riche et unique à nos kombucha, nous utilisons un
-      soupçon de malt aromatique ayant subi différents niveaux de torréfaction
-      selon la saveur de kombucha avec lequel nous l’associons. Malterie
-      Frontenac satisfait nos besoins avec son grand choix de malt biologique.
+      Nous testons présentement la belle sélection de malts québécois
+      biologiques de la Malterie Frontenac afin de développer de nouveaux
+      produits. Ils ont des malts de base parmi les plus haut de gamme
+      disponibles pour les microbrasserie du Québec et leurs malts aromatiques
+      ayant subi différents niveaux de torréfaction procurent un goût riche et
+      unique à la bière.
     image: /img/malterie-frontenac.png
     title: Malterie Frontenac (Chaudière-Appalaches)
   - desc: >-
@@ -107,7 +93,9 @@ partenaires:
 
 
       Nous utilisons leurs services commerciaux pour l’approvisionnement en
-      certains ingrédients biologiques pour nos kombucha.
+      certains ingrédients biologiques pour nos kombucha. Ils sont aussi devenus
+      un de nos points de vente à Sherbrooke. C’est une belle exemple d'économie
+      circulaire entre partenaires régionaux!
     image: /img/coop-alentour.jpg
     title: Coop Alentour (Estrie)
   - desc: >-
@@ -126,7 +114,9 @@ partenaires:
 
       Elles ont développé pour nous le mélange d’herbes forestières qui est
       utilisé dans le kombucha Fraîcheur Forestière en combinaison avec du
-      houblon québécois.
+      houblon québécois. Nous nous approvisionnons donc chez elles pour ce
+      mélange d'ingrédients sauvages récoltés à la main dans les forêts du
+      Québec par leurs fournisseurs-cueilleurs.
     image: /img/zerbes-folles.jpg
     title: Les Zerbes Folles (Estrie)
   - desc: >-
