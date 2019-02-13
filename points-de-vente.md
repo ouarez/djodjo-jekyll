@@ -26,5 +26,12 @@ locations:
     title: Vertige Ferme Urbaine
     url: 'http://www.vertige.biz/'
     url_text: www.vertige.biz
+  - address_1: 848 Rue Denison O
+    address_2: 'Granby, QC J2J 0S1'
+    lat: '45.3759323'
+    long: '-72.7568293'
+    title: Fraîcheur Urbaine
+    url: 'https://fraicheururbaine.com/'
+    url_text: www.fraicheururbaine.com
 ---
 
