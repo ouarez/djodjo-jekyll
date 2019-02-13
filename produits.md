@@ -28,9 +28,9 @@ produits:
     desc: >-
       Un clin d’œil aux amateurs de bière houblonnée à froid ainsi qu'à tous
       ceux et celles attirés par une explosion florale de fruits de la passion
-      et mangue. Cette saveur est élaborée à partir d’une sélection de houblons
-      caractérisés par leurs arômes de fruits tropicaux. Ce kombucha au goût
-      innovant et de faible amertume surprendra même les amateurs avisés.
+      et tropicale. Cette saveur est élaborée à partir d’une sélection de
+      houblons caractérisés par leurs arômes de fruits tropicaux. Ce kombucha au
+      goût innovant et de faible amertume surprendra même les amateurs avisés.
     ecocert: true
     image: /img/houblons-passion-tropicale.jpg
     ingredients: >-
