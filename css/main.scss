@@ -199,6 +199,13 @@ main {
     .logo {height:50px;width:50px;}
   } // end product
 
+  .square {
+    min-height:350px;
+    .shadow {
+      height:350px;
+    }
+  }
+
   .publications, .publication {
     .post-image {
       height:400px;

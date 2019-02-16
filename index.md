@@ -5,7 +5,8 @@ description: Production et distribution de kombucha biologique en Estrie.
 slogan1: L'effervescence de la vie
 slogan2: 8 saveurs originales
 cover_link: /produits
-cover_image: /img/banner-site.jpg
+cover_mobile: /img/banner-mobile.jpg
+cover_site: /img/banner-site.jpg
 square:
   - desc: >-
       Rendre accessible à la population un produit écoresponsable et éthique en
@@ -44,4 +45,3 @@ square:
     link_desc: Consulter nos publications
     name: Publications
 ---
-
