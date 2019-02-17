@@ -6,7 +6,7 @@ description: >-
   Djodjo Kombucha s'efforce de participer au développement de l’économie
   régionale. Vivement l’économie circulaire!
 slogan: 'fournisseurs, agriculteurs et commerces québécois.'
-cover_image: /img/fournisseurs.jpg
+cover_image: /img/verger_murs.jpg
 partenaires:
   - desc: >-
       Vertige est établi à Sherbrooke et produit des pousses fraîches,
