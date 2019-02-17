@@ -3,7 +3,7 @@ layout: points-de-vente
 title: Points de vente
 permalink: /points-de-vente
 description: Nos produits sont disponibles aux points de ventes suivants.
-cover_image: /img/points-de-vente.jpg
+cover_image: /img/sherbrooke-3.jpg
 locations:
   - address_1: 1444 Rue King Ouest
     address_2: 'Sherbrooke, QC J1J 2C2'
