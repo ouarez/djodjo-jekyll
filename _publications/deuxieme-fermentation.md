@@ -1,12 +1,15 @@
 ---
-layout: publication
-title: "Publications"
-slogan: "Recettes et articles"
-cover_image: /img/kombucha-cover.jpg
-post_title: "Recette de Kombucha - la deuxième fermentation"
+post_title: Recette de Kombucha - la deuxième fermentation
+post_date: 2019-03-27T21:02:28.809Z
 post_image: /img/deuxieme-fermentation.jpg
 recette_image: /img/recette2.jpg
-description: Cette première recette décrit comment accomplir la première fermentation de kombucha, à l'aide du symbiote (aussi appelé scoby, mère ou champignon).
+layout: publication
+title: Publications
+description: >-
+  Cette première recette décrit comment accomplir la première fermentation de
+  kombucha, à l'aide du symbiote (aussi appelé scoby, mère ou champignon).
+slogan: Recettes et articles
+cover_image: /img/kombucha-cover.jpg
 ---
 Recette de deuxième fermentation :
 
