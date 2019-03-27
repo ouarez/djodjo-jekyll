@@ -9,14 +9,14 @@ locations:
     address_2: 'Sherbrooke, QC J1J 2C2'
     lat: 45.398685
     long: -71.911906
-    title: Vinestrie
+    title: Vinestrie (King Ouest)
     url: 'https://vinestrie.ca/'
     url_text: www.vinestrie.ca
   - address_1: 766 Rue King Est
     address_2: 'Sherbrooke, QC J1G 1C5'
     lat: 45.408094
     long: -71.872082
-    title: Vinestrie
+    title: Vinestrie (King Est)
     url: 'https://vinestrie.ca/'
     url_text: www.vinestrie.ca
   - address_1: 201 Boulevard Jacques-Cartier S
@@ -54,5 +54,13 @@ locations:
     title: Coopérative La Manne
     url: 'https://www.cooplamanne.com/'
     url_text: www.cooplamanne.com
+  - address_1: 775 Rue Galt O
+    address_2: 'Sherbrooke, QC J1H 1Z1'
+    lat: '45.394347'
+    long: '-71.897627'
+    title: IGA extra Chapdelaine
+    url: >-
+      https://www.iga.net/fr/recherche_de_magasin/magasin/0514?utm_source=G&utm_medium=lpm&utm_campaign=SobeysMontreal
+    url_text: www.iga.net/extrachapdelaine
 ---
 
