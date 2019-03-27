@@ -100,9 +100,21 @@ collections:
         file: "publications.md"
         label: "Éditer la page des Publications"
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "produits"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "publications"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/produits" }
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/publications" }
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Slogan", name: "slogan", widget: "string", required: false}
+          - {label: "Image de couverture", name: "cover_image", widget: "image"}
+          - {label: "Contenu", name: "body", widget: "markdown"}
+
+      - name: "contact"
+        file: "contact.md"
+        label: "Éditer la page de Contact"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "contact"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/contact" }
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Slogan", name: "slogan", widget: "string", required: false}
           - {label: "Image de couverture", name: "cover_image", widget: "image"}
