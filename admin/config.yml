@@ -106,8 +106,10 @@ collections:
           - {label: "Description", name: "description", widget: "string"}
           - {label: "Slogan", name: "slogan", widget: "string", required: false}
           - {label: "Image de couverture", name: "cover_image", widget: "image"}
+          - {label: "Contenu", name: "body", widget: "markdown"}
 
   - name: "publication"
+    identifier_field: post_title
     label: "Publications"
     folder: "_publications"
     create: true
