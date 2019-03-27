@@ -112,15 +112,16 @@ collections:
     folder: "_publications"
     create: true
     fields:
+      - {label: "Titre de la publication", name: "post_title", widget: "string"}
+      - {label: "Date de la publication", name: "post_date", widget: "date"}
+      - {label: "Image de la publication", name: "post_image", widget: "image"}
+      - {label: "Image de la recette (2e en bas)", name: "recette_image", widget: "image"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "produits"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "hidden", default: "/produits" }
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Slogan", name: "slogan", widget: "string", required: false}
       - {label: "Image de couverture", name: "cover_image", widget: "image"}
-      - {label: "Titre de la publication", name: "post_title", widget: "string"}
-      - {label: "Image de la publication", name: "post_image", widget: "image"}
-      - {label: "Image de la recette (2e en bas)", name: "recette_image", widget: "image"}
 
   - name: "settings"
     label: "Paramètres du site"
