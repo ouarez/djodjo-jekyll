@@ -47,5 +47,12 @@ locations:
     title: Antidote FoodLab
     url: 'http://www.antidotefoodlab.com/'
     url_text: www.antidotefoodlab.com
+  - address_1: 194 Rue Notre-Dame Est
+    address_2: 'Victoriaville, QC G6P 4A1'
+    lat: ' 46.057425'
+    long: '-71.954251'
+    title: Coopérative La Manne
+    url: 'https://www.cooplamanne.com/'
+    url_text: www.cooplamanne.com
 ---
 
