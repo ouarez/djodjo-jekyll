@@ -96,6 +96,31 @@ collections:
               - {label: Latitude, name: lat, widget: string}
               - {label: Longitude, name: long, widget: string}
 
+      - name: "publications"
+        file: "publications.md"
+        label: "Éditer la page des Publications"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "produits"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/produits" }
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Slogan", name: "slogan", widget: "string", required: false}
+          - {label: "Image de couverture", name: "cover_image", widget: "image"}
+
+  - name: "publication"
+    label: "Gérer les publications"
+    folder: "_publications"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "produits"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", default: "/produits" }
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Slogan", name: "slogan", widget: "string", required: false}
+      - {label: "Image de couverture", name: "cover_image", widget: "image"}
+      - {label: "Titre de la publication", name: "post_title", widget: "string"}
+      - {label: "Image de la publication", name: "post_image", widget: "image"}
+
   - name: "settings"
     label: "Paramètres du site"
     delete: false # Prevent users from deleting documents in this collection
