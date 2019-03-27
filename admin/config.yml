@@ -120,6 +120,7 @@ collections:
       - {label: "Image de couverture", name: "cover_image", widget: "image"}
       - {label: "Titre de la publication", name: "post_title", widget: "string"}
       - {label: "Image de la publication", name: "post_image", widget: "image"}
+      - {label: "Image de la recette (2e en bas)", name: "recette_image", widget: "image"}
 
   - name: "settings"
     label: "Paramètres du site"
