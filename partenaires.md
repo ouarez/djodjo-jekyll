@@ -131,5 +131,39 @@ partenaires:
       de nos besoins.
     image: /img/uni-d.jpg
     title: Uni-D (Estrie)
+  - desc: >-
+      Les Brasseurs du Monde est une microbrasserie fondée en 2011 à
+      Saint-Hyacinthe. Qu'est-ce qui les distinguent ?
+
+
+      - Un joueur émergeant de qualité cumulant plus de 60 ans d’expérience dans
+      le domaine brassicole
+
+      - Un soutien pour les causes caritatives dans son milieu
+
+      - Plus de 50 employés
+
+      - 29 bières régulières
+
+      - Plus de 60 brassins : Gamme Fruits, Hors-Séries, Marques Privées, etc.
+
+      - 64 médailles pour 29 bières dont 3 championnes du monde
+
+      - Plus de 2 200 points de vente et près de 300 restaurants et bars au
+      Québec
+
+      - Des bières 100 % naturelles auxquelles
+
+      - Des brassins de 5 000 litres, dans un système à la fine pointe des
+      techniques brassicoles, comptant 13 fermenteurs
+
+      - La capacité de production actuelle est de plus de 14 000 hl/année
+
+
+      Djodjo Kombucha a eu la chance de recevoir le soutien de la microbrasserie
+      Les Brasseurs du Monde lors de nos débuts avec l'embouteillage en canettes
+      de notre kombucha.
+    image: /img/069059b7ef840f0c74a814ec9237b6ec.png
+    title: Brasseurs du Monde (Montérégie)
 ---
 
