@@ -152,7 +152,7 @@ partenaires:
       - Plus de 2 200 points de vente et près de 300 restaurants et bars au
       Québec
 
-      - Des bières 100 % naturelles auxquelles
+      - Des bières 100 % naturelles
 
       - Des brassins de 5 000 litres, dans un système à la fine pointe des
       techniques brassicoles, comptant 13 fermenteurs
@@ -160,9 +160,9 @@ partenaires:
       - La capacité de production actuelle est de plus de 14 000 hl/année
 
 
-      Djodjo Kombucha a eu la chance de recevoir le soutien de la microbrasserie
-      Les Brasseurs du Monde lors de nos débuts avec l'embouteillage en canettes
-      de notre kombucha.
+      Nous avons eu la chance de recevoir le soutien de la microbrasserie Les
+      Brasseurs du Monde lors de nos débuts avec l'embouteillage en canettes de
+      notre kombucha. Merci Maxime!
     image: /img/069059b7ef840f0c74a814ec9237b6ec.png
     title: Brasseurs du Monde (Montérégie)
 ---
