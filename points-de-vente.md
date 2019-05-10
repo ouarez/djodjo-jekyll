@@ -62,5 +62,13 @@ locations:
     url: >-
       https://www.iga.net/fr/recherche_de_magasin/magasin/0514?utm_source=G&utm_medium=lpm&utm_campaign=SobeysMontreal
     url_text: www.iga.net/extrachapdelaine
+  - address_1: 585 Rue Saint-Hubert
+    address_2: 'Granby, QC J2H 1Y5'
+    lat: '45.423087'
+    long: '-72.725302'
+    title: IGA extra Marché St-Pierre et Fils
+    url: >-
+      https://www.iga.net/fr/recherche_de_magasin/magasin/8502?utm_source=G&utm_medium=lpm&utm_campaign=SobeysMontreal
+    url_text: www.iga.net/extramarchest-pierreetfils
 ---
 
