@@ -84,12 +84,11 @@ produits:
     title: Fraîcheur forestière
   - bio: true
     desc: >-
-      L’acidité de la cerise griotte combinée aux goûts herbacé du houblon
+      L’acidité fruitée de la cerise griotte combinée à la douceur du thé blanc
       s’allient pour donner une boisson parfaitement équilibrée et se prêtant à
-      toute occasion. Des variétés de houblon ayant un goût de vin rouge,
-      balsamique, bleuet et gomme balloune ont été spécialement sélectionnées
-      pour ajouter de la complexité et ainsi ravir même les nouvellement initiés
-      au kombucha.
+      toute occasion. Le thé blanc utilisé ajoute de la complexité avec ses
+      notes florales et sa sensation de velvet en bouche. Ces saveurs sauront
+      ravir même les nouvellement initiés au kombucha.
     ecocert: true
     image: /img/cerise-et-houblon.jpg
     ingredients: >-
