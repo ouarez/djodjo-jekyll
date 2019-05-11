@@ -18,11 +18,12 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*, eau, jus de framboise\*, jus de camerise\*, sucre
-      doré\*, houblon Glacier*, houblon Bramling Cross.
+      eau, culture de kombucha\*, jus de framboise\*\*, jus de camerise\*\*\*,
+      sucre doré\*, thé noir\*.
 
 
-      \*biologique
+      \*biologique  \*\*biologique et pressé à froid \*\*\*biologique, québécois
+      et pressé à froid
     title: Framboise et camerise
   - bio: true
     desc: >-
@@ -37,12 +38,12 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*, eau, sucre doré\*, houblons (El Dorado, Galaxy,
-      Citra, Azacca).
+      eau, culture de kombucha\*, sucre doré\*, houblons (El Dorado, Galaxy,
+      Citra, Azacca)
 
 
       \*biologique
-    title: Houblons passion tropicale
+    title: Houblons tropicaux
   - bio: true
     desc: >-
       La réputation du classique kombucha au gingembre n’est plus à faire. Nous
@@ -55,11 +56,11 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*, eau, sucre doré\*, jus de citron\*, jus de
-      gingembre\*, thé vert\*, thé noir\*.
+      eau, culture de kombucha\*, sucre doré\*, jus de citron\*\*, jus de
+      gingembre\*\*, thé vert\*, thé noir\*
 
 
-      \*biologique
+      \*biologique  \**biologique et pressé à froid
     title: Gingembre et citron
   - bio: true
     desc: >-
@@ -74,12 +75,12 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*, eau, sucre doré\*, tisane forestière (sapin
-      beaumier, épinette rouge, cèdre thuya, baies de genièvre), houblons*
-      (Chinook, Nugget).
+      eau, culture de kombucha\*, sucre doré\*, tisane forestière\*\* (sapin
+      beaumier, épinette rouge, cèdre thuya, baies de genièvre), houblons\*\*
+      (Chinook, Nugget)
 
 
-      \*biologique
+      \*biologique \**biologique et québécois
     title: Fraîcheur forestière
   - bio: true
     desc: >-
@@ -95,12 +96,13 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*, eau, jus de cerise griotte\*, sucre doré\*, houblon
-      Newport\*, houblon Mosaic.
+      eau, culture de kombucha\*, jus de cerise griotte\*\*, sucre doré\*,
+      houblon Newport\*\**, houblon Mosaic
 
 
-      \*biologique
-    title: Cerise griotte
+      \*biologique \*\*biologique, québécois et pressé à froid  \*\*\*biologique
+      et québécois
+    title: Cerise et thé blanc
   - bio: true
     desc: >-
       Le breuvage idéal pour se désaltérer l’été ou pour s’imaginer prendre un
@@ -113,11 +115,11 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*, eau, jus de fraise\*, sucre doré*, houblons (Huell
-      Melon, Belma).
+      eau, culture de kombucha\*, jus de fraise\*\*, sucre doré\*, houblons
+      (Huell Melon, Belma).
 
 
-      \*biologique
+      \*biologique \**biologique et pressé à froid
     title: Fraise et melons
   - bio: true
     desc: >-
@@ -131,11 +133,12 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*, eau, jus de pomme\*, jus de carotte\*, sucre
-      doré\*, jus de curcuma et gingembre\*, rooibos\*.
+      eau, culture de kombucha\*, jus de pomme\*\*, jus de carotte\*\*, sucre
+      doré\*, jus de curcuma et gingembre\*\*\*, rooibos\*.
 
 
-      \*biologique
+      \*biologique \*\*biologique, québécois et pressé à froid \*\*\*biologique
+      et pressé à froid
     title: 'Pomme, carotte et curcuma'
   - bio: true
     desc: >-
@@ -149,11 +152,11 @@ produits:
       **INGRÉDIENTS**
 
 
-      culture de kombucha\*, eau, sucre doré\*, houblon Cascade*, houblons
+      eau, culture de kombucha\*, sucre doré\*, houblon Cascade\*\*, houblons
       (Mandarina Bavaria, Amarillo, Comet).
 
 
-      \*biologique
+      \*biologique \**biologique et québécois
     title: Agrumes houblonnés
 ---
 
