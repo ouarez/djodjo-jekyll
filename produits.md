@@ -96,12 +96,11 @@ produits:
       **INGRÉDIENTS**
 
 
-      eau, culture de kombucha\*, jus de cerise griotte\*\*, sucre doré\*,
-      houblon Newport\*\**, houblon Mosaic
+      eau, culture de kombucha\*, jus de cerise griotte\*\*, sucre doré\*, thé
+      blanc*
 
 
-      \*biologique \*\*biologique, québécois et pressé à froid  \*\*\*biologique
-      et québécois
+      \*biologique \**biologique, québécois et pressé à froid
     title: Cerise et thé blanc
   - bio: true
     desc: >-
