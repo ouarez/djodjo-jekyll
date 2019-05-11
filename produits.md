@@ -87,8 +87,8 @@ produits:
       L’acidité fruitée de la cerise griotte combinée à la douceur du thé blanc
       s’allient pour donner une boisson parfaitement équilibrée et se prêtant à
       toute occasion. Le thé blanc utilisé ajoute de la complexité avec ses
-      notes florales et sa sensation de velvet en bouche. Ces saveurs sauront
-      ravir même les nouvellement initiés au kombucha.
+      notes florales, herbales et de vin Bordeaux. Ces saveurs sauront ravir
+      même les nouvellement initiés au kombucha.
     ecocert: true
     image: /img/cerise-et-houblon.jpg
     ingredients: >-
