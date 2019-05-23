@@ -90,7 +90,7 @@ produits:
       notes florales, herbales et de vin Bordeaux. Ces saveurs sauront ravir
       même les nouvellement initiés au kombucha.
     ecocert: true
-    image: /img/cerise-et-houblon.jpg
+    image: /img/cerise-et-the-blanc.jpg
     ingredients: >-
       **INGRÉDIENTS**
 
@@ -157,4 +157,3 @@ produits:
       \*biologique \**biologique et québécois
     title: Agrumes houblonnés
 ---
-
